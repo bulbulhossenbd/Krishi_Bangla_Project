@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
 
-import com.bulbulhossen.krishibangla.Crop_cultivation.Crop_main_Activity;
+import com.bulbulhossen.krishibangla.Crop_cultivation.Paddy.Paddy_Main.Crop_main_Activity;
 import com.bulbulhossen.krishibangla.R;
 
 import java.util.ArrayList;
@@ -39,10 +39,11 @@ public class Grid_main_Activity extends AppCompatActivity {
         Bitmap four = BitmapFactory.decodeResource(this.getResources(), R.drawable.fruit_grid);
         Bitmap five = BitmapFactory.decodeResource(this.getResources(), R.drawable.fusol_grid);
         Bitmap six = BitmapFactory.decodeResource(this.getResources(), R.drawable.fish_grid);
-        Bitmap seven = BitmapFactory.decodeResource(this.getResources(), R.drawable.fruit_grid);
-        Bitmap eight = BitmapFactory.decodeResource(this.getResources(), R.drawable.paddy);
-        Bitmap nine = BitmapFactory.decodeResource(this.getResources(), R.drawable.paddy);
-        Bitmap ten = BitmapFactory.decodeResource(this.getResources(), R.drawable.paddy);
+        Bitmap seven = BitmapFactory.decodeResource(this.getResources(), R.drawable.fish_grid);
+        Bitmap eight = BitmapFactory.decodeResource(this.getResources(), R.drawable.fusol_grid);
+        Bitmap nine = BitmapFactory.decodeResource(this.getResources(), R.drawable.fish_grid);
+        Bitmap ten = BitmapFactory.decodeResource(this.getResources(), R.drawable.fusol_grid);
+
 
 
         gridviewImageItems.add(new Gridview_ImageItem(one, "ফসল  চাষ"));
@@ -51,10 +52,12 @@ public class Grid_main_Activity extends AppCompatActivity {
         gridviewImageItems.add(new Gridview_ImageItem(four, "ফল চাষ"));
         gridviewImageItems.add(new Gridview_ImageItem(five, "আখ"));
         gridviewImageItems.add(new Gridview_ImageItem(six, "বাদাম"));
+
         gridviewImageItems.add(new Gridview_ImageItem(seven, "পাট"));
         gridviewImageItems.add(new Gridview_ImageItem(eight, "বাদাম"));
-        gridviewImageItems.add(new Gridview_ImageItem(nine, "ধান"));
-        gridviewImageItems.add(new Gridview_ImageItem(ten, "ধান"));
+        gridviewImageItems.add(new Gridview_ImageItem(nine, "পাট"));
+        gridviewImageItems.add(new Gridview_ImageItem(ten, "বাদাম"));
+
 
 
         gridView = (GridView) findViewById(R.id.gridView);

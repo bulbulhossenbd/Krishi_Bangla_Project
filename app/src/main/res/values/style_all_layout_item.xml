@@ -54,8 +54,8 @@
 <!-- || Transtion Animation Code -->
 
     <style name="Fade_Transition">
-        <item name="android:windowEnterAnimation">@anim/transition_slide_up</item>
-        <item name="android:windowExitAnimation">@anim/transition_slide_down</item>
+        <item name="android:windowEnterAnimation">@anim/transition_slide_right</item>
+        <item name="android:windowExitAnimation">@anim/transition_slide_left</item>
     </style>
 
 

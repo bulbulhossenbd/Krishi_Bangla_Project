@@ -19,13 +19,13 @@
         <!--Crop Cultivation-->
 
         <activity
-            android:name=".Crop_cultivation.Crop_main_Activity"
+            android:name=".Crop_cultivation.Paddy.Paddy_Main.Crop_main_Activity"
             android:label="@string/app_name"></activity>
 
         <!--Paddy Cultivation-->
 
         <activity
-            android:name=".Crop_cultivation.Paddy.Paddy_main_Activity"
+            android:name=".Crop_cultivation.Paddy.Paddy_Main.Paddy_main_Activity"
             android:label="@string/app_name"></activity>
 
         <!--Paddy Cultivation-->
@@ -33,6 +33,20 @@
         <activity
             android:name=".Crop_cultivation.Paddy.Amon_paddy.Amon_Paddy_Details"
             android:label="@string/app_name"></activity>
+
+        <activity
+            android:name=".Crop_cultivation.Paddy.Boro_Paddy.Boro_Paddy_Details"
+            android:label="@string/app_name"></activity>
+
+        <activity android:name=".Vegetable_grid_Main.Vegetable_main_Activity"
+            android:label="@string/app_name"
+            ></activity>
     </application>
+
+
+    //Vegetable Main_Activity
+
+
+
 
 </manifest>

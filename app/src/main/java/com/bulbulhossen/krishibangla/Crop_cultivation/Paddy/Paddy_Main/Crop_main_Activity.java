@@ -1,4 +1,4 @@
-package com.bulbulhossen.krishibangla.Crop_cultivation.Paddy;
+package com.bulbulhossen.krishibangla.Crop_cultivation.Paddy.Paddy_Main;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -9,7 +9,6 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
 
-import com.bulbulhossen.krishibangla.Crop_cultivation.Paddy.Amon_paddy.Amon_Paddy_Details;
 import com.bulbulhossen.krishibangla.Grid_Adapter_MainActivity.GridViewAdapter;
 import com.bulbulhossen.krishibangla.Grid_Adapter_MainActivity.Gridview_ImageItem;
 import com.bulbulhossen.krishibangla.R;
@@ -17,7 +16,7 @@ import com.bulbulhossen.krishibangla.R;
 import java.util.ArrayList;
 
 
-public class Paddy_main_Activity extends AppCompatActivity {
+public class Crop_main_Activity extends AppCompatActivity {
 
 
     Intent i;
@@ -28,11 +27,12 @@ public class Paddy_main_Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         /*        || Transtion Animation Code*/
         getWindow().getAttributes().windowAnimations = R.style.Fade_Transition;
 
 
-        setContentView(R.layout.paddy_main_grid_layout);
+        setContentView(R.layout.crop_main_grid_layout);
 
         Bitmap one = BitmapFactory.decodeResource(this.getResources(), R.drawable.paddy);
         Bitmap two = BitmapFactory.decodeResource(this.getResources(), R.drawable.paddy);
@@ -46,8 +46,8 @@ public class Paddy_main_Activity extends AppCompatActivity {
         Bitmap ten = BitmapFactory.decodeResource(this.getResources(), R.drawable.paddy);
 
 
-        gridviewImageItems.add(new Gridview_ImageItem(one, "আমন চাষ"));
-        gridviewImageItems.add(new Gridview_ImageItem(two, "গম চাষ" ));
+        gridviewImageItems.add(new Gridview_ImageItem(one, "ধান চাষ"));
+        gridviewImageItems.add(new Gridview_ImageItem(two, "গম চাষ"));
         gridviewImageItems.add(new Gridview_ImageItem(three, "ধান চাষ"));
         gridviewImageItems.add(new Gridview_ImageItem(four, " চাষ"));
         gridviewImageItems.add(new Gridview_ImageItem(five, "আখ"));
@@ -67,7 +67,7 @@ public class Paddy_main_Activity extends AppCompatActivity {
 
                 switch (position) {
                     case 0:
-                        i = new Intent(Paddy_main_Activity.this, Amon_Paddy_Details.class);
+                        i = new Intent(Crop_main_Activity.this, Paddy_main_Activity.class);
                         break;
                 }
 
