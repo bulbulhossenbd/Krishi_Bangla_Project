@@ -28,9 +28,6 @@ public class Paddy_main_Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-/*        requestWindowFeature(Window.FEATURE_NO_TITLE);
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);*/
-
         /*        || Transtion Animation Code*/
         getWindow().getAttributes().windowAnimations = R.style.Fade_Transition;
 
@@ -72,18 +69,6 @@ public class Paddy_main_Activity extends AppCompatActivity {
                     case 0:
                         i = new Intent(Paddy_main_Activity.this, Amon_Paddy_Details.class);
                         break;
-/*                    case 1:
-                        i = new Intent(Grid_main_Activity.this, Button_style_main.class);
-                        break;
-                    case 2:
-                        i = new Intent(Grid_main_Activity.this, Details_Class.class);
-                       overridePendingTransition(R.anim.push_up_in, R.anim.push_up_out);
-                        break;
-
-                    case 3:
-                        i = new Intent(Grid_main_Activity.this, ExampleActivity.class);
-                       overridePendingTransition(R.anim.push_up_in, R.anim.push_up_out);
-                        break;*/
                 }
 
                 startActivity(i);
@@ -92,74 +77,5 @@ public class Paddy_main_Activity extends AppCompatActivity {
         });
 
     }
-
-
-    //Application Exiting code start--------------->>
-
-/*
-    public void onBackPressed() {
-        AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(
-                Grid_main_Activity.this);
-
-        // set title
-        alertDialogBuilder.setTitle("কবিতা ভাণ্ডার");
-
-        // set dialog message
-        alertDialogBuilder
-                .setMessage("আপনি কি অ্যাপ্লিকেশান বন্ধ করতে চান ?")
-                .setCancelable(false)
-                .setPositiveButton("হ্যাঁ", new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog, int id) {
-                        // if this button is clicked, close
-                        // current activity
-                        Grid_main_Activity.this.finish();
-                    }
-                })
-                .setNegativeButton("না", new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog, int id) {
-                        // if this button is clicked, just close
-                        // the dialog box and do nothing
-                        dialog.cancel();
-                    }
-                });
-
-        // create alert dialog
-        AlertDialog alertDialog = alertDialogBuilder.create();
-
-        // show it
-        alertDialog.show();
-*/
-
-    //Application Exiting code end -----------<<
-
-
-//  Apps rating ... code start---------------->>
-
-/*        AppRate.with(this)
-                //.setStoreType(AppRate.StoreType.GOOGLEPLAY) //default is Google, other option is Amazon
-                .setInstallDays(3) // default 10, 0 means install day.
-                .setLaunchTimes(10) // default 10 times.
-                .setRemindInterval(2) // default 1 day.
-                .setShowLaterButton(true) // default true.
-                .setDebug(true) // default false.
-                .setCancelable(false) // default false.
-                .setOnClickButtonListener(new OnClickButtonListener() { // callback listener.
-                    @Override
-                    public void onClickButton(int which) {
-                        Log.d(Grid_main_Activity.class.getName(), Integer.toString(which));
-                    }
-                })
-                .setMessage(R.string.meassage)
-                .setTitle(R.string.new_rate_dialog_title)
-                .setTextLater(R.string.new_rate_dialog_later)
-                .setTextNever(R.string.new_rate_dialog_never)
-                .setTextRateNow(R.string.new_rate_dialog_ok)
-                .monitor();
-
-
-        AppRate.showRateDialogIfMeetsConditions(this);*/
-
-// rating code end-------------------<<<
-
 
 }

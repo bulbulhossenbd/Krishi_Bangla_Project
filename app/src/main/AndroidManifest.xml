@@ -26,15 +26,13 @@
 
         <activity
             android:name=".Crop_cultivation.Paddy.Paddy_main_Activity"
-            android:label="@string/app_name">
-        </activity>
+            android:label="@string/app_name"></activity>
 
         <!--Paddy Cultivation-->
 
         <activity
             android:name=".Crop_cultivation.Paddy.Amon_paddy.Amon_Paddy_Details"
-            android:label="@string/app_name">
-        </activity>
+            android:label="@string/app_name"></activity>
     </application>
 
 </manifest>
