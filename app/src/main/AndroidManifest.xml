@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bulbulhossen.krishibangla">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Grid_Adapter_MainActivity.Grid_main_Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--Crop Cultivation-->
+
+        <activity
+            android:name=".Crop_cultivation.Crop_main_Activity"
+            android:label="@string/app_name"></activity>
+
+        <!--Paddy Cultivation-->
+
+        <activity
+            android:name=".Crop_cultivation.Paddy.Paddy_main_Activity"
+            android:label="@string/app_name">
+        </activity>
+
+        <!--Paddy Cultivation-->
+
+        <activity
+            android:name=".Crop_cultivation.Paddy.Amon_paddy.Amon_Paddy_Details"
+            android:label="@string/app_name">
+        </activity>
+    </application>
+
+</manifest>

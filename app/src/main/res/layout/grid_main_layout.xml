@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3D4F5D"
+    tools:context=".Grid_Adapter_MainActivity.Grid_main_Activity">
+
+    <!--|| GridView layout -->
+    <com.twotoasters.jazzylistview.JazzyGridView
+        android:id="@+id/gridView"
+        style="@style/gridview_style_all"
+        app:effect="curl"
+        app:max_velocity="0"
+        app:only_animate_fling="false"
+        app:only_animate_new_items="false">
+
+    </com.twotoasters.jazzylistview.JazzyGridView>
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="NORMAL_STATE_COLOR">#3C3F41</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="FOCUSED_STATE_COLOR">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="PRESSED_STATE_COLOR">#FF4081</color>
+    <color name="green">#139d57</color>
+    <color name="white">#ffffff</color>
+
+</resources>

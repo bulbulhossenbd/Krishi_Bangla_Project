@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--|| GridView layout -->
+
+    <style name="gridview_style_all">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:columnWidth">150dp</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:drawSelectorOnTop">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:numColumns">auto_fit</item>
+        <item name="android:stretchMode">columnWidth</item>
+        <item name="android:verticalSpacing">6dp</item>
+        <item name="android:horizontalSpacing">6dp</item>
+    </style>
+
+    <!--|| Slider : 4 types image show-->
+
+    <style name="sliderimag_carouselview">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_gravity">center_horizontal|top</item>
+        <item name="android:layout_weight">40</item>
+        <item name="android:scaleType">fitCenter</item>
+
+    </style>
+
+    <!--|| Item_problem_details_listview-->
+
+    <style name="item_problem_listview_jazzy">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_weight">60</item>
+        <item name="android:divider">#9E9E9E</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:scrollbars">none</item>
+    </style>
+
+<!-- || Item_problem_details_linear_layout-->
+
+    <style name="item_problem_linear_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#444444</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:weightSum">100</item>
+    </style>
+
+<!-- || Transtion Animation Code -->
+
+    <style name="Fade_Transition">
+        <item name="android:windowEnterAnimation">@anim/transition_slide_up</item>
+        <item name="android:windowExitAnimation">@anim/transition_slide_down</item>
+    </style>
+
+
+
+
+</resources>

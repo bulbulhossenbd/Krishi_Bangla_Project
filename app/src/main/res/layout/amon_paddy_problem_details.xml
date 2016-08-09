@@ -1,0 +1,27 @@
+<!-- || Item_problem_details_linear_layout-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/item_problem_linear_layout">
+
+    <!--|| Slider : 4 types image show-->
+    <com.synnapps.carouselview.CarouselView
+        android:id="@+id/carouselView"
+        style="@style/sliderimag_carouselview"
+        app:fillColor="#FFFFFFFF"
+        app:pageColor="#00000000"
+        app:radius="6dp"
+        app:slideInterval="3000"
+        app:strokeColor="#FF777777"
+        app:strokeWidth="1dp" />
+
+    <!--|| Item_problem_listview-->
+    <com.twotoasters.jazzylistview.JazzyListView
+        style="@style/item_problem_listview_jazzy"
+        android:id="@+id/listview"
+        app:effect="helix"
+        app:max_velocity="0"
+        app:only_animate_fling="false"
+        app:only_animate_new_items="false"></com.twotoasters.jazzylistview.JazzyListView>
+
+
+</LinearLayout>
