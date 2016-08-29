@@ -33,16 +33,16 @@ public class Grid_main_Activity extends AppCompatActivity {
 
         setContentView(R.layout.grid_main_layout);
 
-        Bitmap one = BitmapFactory.decodeResource(this.getResources(), R.drawable.fusol_grid);
-        Bitmap two = BitmapFactory.decodeResource(this.getResources(), R.drawable.fish_grid);
+        Bitmap one = BitmapFactory.decodeResource(this.getResources(), R.drawable.fusol_grid_main);
+        Bitmap two = BitmapFactory.decodeResource(this.getResources(), R.drawable.fish_grid_main);
         Bitmap three = BitmapFactory.decodeResource(this.getResources(), R.drawable.vegetable_grid);
-        Bitmap four = BitmapFactory.decodeResource(this.getResources(), R.drawable.fruit_grid);
-        Bitmap five = BitmapFactory.decodeResource(this.getResources(), R.drawable.fusol_grid);
-        Bitmap six = BitmapFactory.decodeResource(this.getResources(), R.drawable.fish_grid);
-        Bitmap seven = BitmapFactory.decodeResource(this.getResources(), R.drawable.fish_grid);
-        Bitmap eight = BitmapFactory.decodeResource(this.getResources(), R.drawable.fusol_grid);
-        Bitmap nine = BitmapFactory.decodeResource(this.getResources(), R.drawable.fish_grid);
-        Bitmap ten = BitmapFactory.decodeResource(this.getResources(), R.drawable.fusol_grid);
+        Bitmap four = BitmapFactory.decodeResource(this.getResources(), R.drawable.furit_grid_main);
+        Bitmap five = BitmapFactory.decodeResource(this.getResources(), R.drawable.fusol_grid_main);
+        Bitmap six = BitmapFactory.decodeResource(this.getResources(), R.drawable.fish_grid_main);
+        Bitmap seven = BitmapFactory.decodeResource(this.getResources(), R.drawable.fish_grid_main);
+        Bitmap eight = BitmapFactory.decodeResource(this.getResources(), R.drawable.vegetable_grid);
+        Bitmap nine = BitmapFactory.decodeResource(this.getResources(), R.drawable.fish_grid_main);
+        Bitmap ten = BitmapFactory.decodeResource(this.getResources(), R.drawable.furit_grid_main);
 
 
 
