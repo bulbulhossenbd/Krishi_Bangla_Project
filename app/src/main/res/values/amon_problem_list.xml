@@ -2,12 +2,12 @@
 <resources>
 
 <string-array name="Amon_paddy_List">
-    <item>বীজবপন</item>
-    <item>বীজবপন</item>
-    <item>বীজবপন</item>
-    <item>বীজবপন</item>
-    <item>বীজবপন</item>
-    <item>বীজবপন</item>
+    <item>বীজতলা তৈরী </item>
+    <item>চারারোপণ</item>
+    <item>সারেরমাত্রা</item>
+    <item>সতর্কতা</item>
+    <item>অন্তর্বর্তীপরিচর্যা</item>
+    <item>ফসলকাটা, মাড়াইওসংরক্ষণ</item>
 </string-array>
 
 </resources>

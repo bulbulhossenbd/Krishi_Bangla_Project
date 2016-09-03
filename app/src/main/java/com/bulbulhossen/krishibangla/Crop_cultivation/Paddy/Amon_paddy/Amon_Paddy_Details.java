@@ -18,7 +18,7 @@ public class Amon_Paddy_Details extends AppCompatActivity {
     private ListView listView;
     CarouselView carouselView;
 
-    int[] sampleImages = {R.drawable.paddyy, R.drawable.paddyy, R.drawable.paddyy, R.drawable.paddyy, R.drawable.paddyy};
+    int[] sampleImages = {R.drawable.lalshak, R.drawable.kakrol, R.drawable.potol};
 
     int image[] = {
             R.drawable.abc_ic_star_black_16dp,

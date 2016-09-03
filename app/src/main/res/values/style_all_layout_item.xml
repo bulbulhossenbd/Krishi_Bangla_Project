@@ -46,7 +46,7 @@
     <style name="item_problem_linear_layout">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
-        <item name="android:background">#444444</item>
+        <item name="android:background">#3c3f41</item>
         <item name="android:orientation">vertical</item>
         <item name="android:weightSum">100</item>
     </style>

@@ -9,8 +9,8 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
 
-import com.bulbulhossen.krishibangla.Crop_cultivation.Paddy.Paddy_Main.Crop_main_Activity;
 import com.bulbulhossen.krishibangla.R;
+import com.bulbulhossen.krishibangla.Vegetable_grid_Main.Vegetable_main_Activity;
 
 import java.util.ArrayList;
 
@@ -33,7 +33,7 @@ public class Grid_main_Activity extends AppCompatActivity {
 
         setContentView(R.layout.grid_main_layout);
 
-        Bitmap one = BitmapFactory.decodeResource(this.getResources(), R.drawable.fusol_grid_main);
+        Bitmap one = BitmapFactory.decodeResource(this.getResources(), R.drawable.vegetable_grid);
         Bitmap two = BitmapFactory.decodeResource(this.getResources(), R.drawable.fish_grid_main);
         Bitmap three = BitmapFactory.decodeResource(this.getResources(), R.drawable.vegetable_grid);
         Bitmap four = BitmapFactory.decodeResource(this.getResources(), R.drawable.furit_grid_main);
@@ -46,7 +46,7 @@ public class Grid_main_Activity extends AppCompatActivity {
 
 
 
-        gridviewImageItems.add(new Gridview_ImageItem(one, "ফসল  চাষ"));
+        gridviewImageItems.add(new Gridview_ImageItem(one, "সবজি চাষ"));
         gridviewImageItems.add(new Gridview_ImageItem(two, "মৎস্য চাষ"));
         gridviewImageItems.add(new Gridview_ImageItem(three, " সবজি চাষ"));
         gridviewImageItems.add(new Gridview_ImageItem(four, "ফল চাষ"));
@@ -69,7 +69,7 @@ public class Grid_main_Activity extends AppCompatActivity {
 
                 switch (position) {
                     case 0:
-                        i = new Intent(Grid_main_Activity.this, Crop_main_Activity.class);
+                        i = new Intent(Grid_main_Activity.this, Vegetable_main_Activity.class);
                         break;
                 }
 

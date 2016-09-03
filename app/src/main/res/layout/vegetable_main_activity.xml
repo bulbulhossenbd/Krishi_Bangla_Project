@@ -10,7 +10,7 @@
     <com.twotoasters.jazzylistview.JazzyGridView
         android:id="@+id/gridView"
         style="@style/gridview_style_all"
-        app:effect="fly"
+        app:effect="fan"
         app:max_velocity="0"
         app:only_animate_fling="false"
         app:only_animate_new_items="false">

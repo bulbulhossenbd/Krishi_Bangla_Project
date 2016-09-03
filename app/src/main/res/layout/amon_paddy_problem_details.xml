@@ -18,7 +18,7 @@
     <com.twotoasters.jazzylistview.JazzyListView
         style="@style/item_problem_listview_jazzy"
         android:id="@+id/listview"
-        app:effect="helix"
+        app:effect="twirl"
         app:max_velocity="0"
         app:only_animate_fling="false"
         app:only_animate_new_items="false"></com.twotoasters.jazzylistview.JazzyListView>

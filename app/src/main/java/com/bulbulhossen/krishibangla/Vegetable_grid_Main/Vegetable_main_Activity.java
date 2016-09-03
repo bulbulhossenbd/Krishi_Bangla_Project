@@ -35,28 +35,28 @@ public class Vegetable_main_Activity extends AppCompatActivity {
 
         setContentView(R.layout.vegetable_main_activity);
 
-        Bitmap one = BitmapFactory.decodeResource(this.getResources(), R.drawable.paddy);
-        Bitmap two = BitmapFactory.decodeResource(this.getResources(), R.drawable.paddy);
-        Bitmap three = BitmapFactory.decodeResource(this.getResources(), R.drawable.paddy);
-        Bitmap four = BitmapFactory.decodeResource(this.getResources(), R.drawable.paddy);
-        Bitmap five = BitmapFactory.decodeResource(this.getResources(), R.drawable.paddy);
-        Bitmap six = BitmapFactory.decodeResource(this.getResources(), R.drawable.paddy);
-        Bitmap seven = BitmapFactory.decodeResource(this.getResources(), R.drawable.paddy);
-        Bitmap eight = BitmapFactory.decodeResource(this.getResources(), R.drawable.paddy);
-        Bitmap nine = BitmapFactory.decodeResource(this.getResources(), R.drawable.paddy);
-        Bitmap ten = BitmapFactory.decodeResource(this.getResources(), R.drawable.paddy);
+        Bitmap one = BitmapFactory.decodeResource(this.getResources(), R.drawable.lalshak);
+        Bitmap two = BitmapFactory.decodeResource(this.getResources(), R.drawable.lau);
+        Bitmap three = BitmapFactory.decodeResource(this.getResources(), R.drawable.kakrol);
+        Bitmap four = BitmapFactory.decodeResource(this.getResources(), R.drawable.korola);
+        Bitmap five = BitmapFactory.decodeResource(this.getResources(), R.drawable.potol);
+        Bitmap six = BitmapFactory.decodeResource(this.getResources(), R.drawable.lalshak);
+        Bitmap seven = BitmapFactory.decodeResource(this.getResources(), R.drawable.lau);
+        Bitmap eight = BitmapFactory.decodeResource(this.getResources(), R.drawable.korola);
+        Bitmap nine = BitmapFactory.decodeResource(this.getResources(), R.drawable.kakrol);
+        Bitmap ten = BitmapFactory.decodeResource(this.getResources(), R.drawable.lalshak);
 
 
-        gridviewImageItems.add(new Gridview_ImageItem(one, "আমন চাষ"));
-        gridviewImageItems.add(new Gridview_ImageItem(two, "গম চাষ" ));
-        gridviewImageItems.add(new Gridview_ImageItem(three, "ধান চাষ"));
-        gridviewImageItems.add(new Gridview_ImageItem(four, " চাষ"));
-        gridviewImageItems.add(new Gridview_ImageItem(five, "আখ"));
-        gridviewImageItems.add(new Gridview_ImageItem(six, "বাদাম"));
-        gridviewImageItems.add(new Gridview_ImageItem(seven, "পাট"));
-        gridviewImageItems.add(new Gridview_ImageItem(eight, "বাদাম"));
-        gridviewImageItems.add(new Gridview_ImageItem(nine, "ধান"));
-        gridviewImageItems.add(new Gridview_ImageItem(ten, "ধান"));
+        gridviewImageItems.add(new Gridview_ImageItem(one, "লাল শাক"));
+        gridviewImageItems.add(new Gridview_ImageItem(two, "লাউ" ));
+        gridviewImageItems.add(new Gridview_ImageItem(three, "কাঁকরোল"));
+        gridviewImageItems.add(new Gridview_ImageItem(four, "করলা"));
+        gridviewImageItems.add(new Gridview_ImageItem(five, "পটল"));
+        gridviewImageItems.add(new Gridview_ImageItem(six, "লাল শাক"));
+        gridviewImageItems.add(new Gridview_ImageItem(seven, "লাউ"));
+        gridviewImageItems.add(new Gridview_ImageItem(eight, "করলা"));
+        gridviewImageItems.add(new Gridview_ImageItem(nine, "কাঁকরোল"));
+        gridviewImageItems.add(new Gridview_ImageItem(ten, "লাল শাক"));
 
 
         gridView = (GridView) findViewById(R.id.gridView);
