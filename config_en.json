@@ -152,6 +152,12 @@
       "layout": "twoColumn",
       "category": 34
     },
+        {
+      "name": "Women's Collections",
+      "image": "",
+      "layout": "threeColumn",
+      "category": 34
+    },
     {
       "layout": "bannerImage",
       "design": "static",
