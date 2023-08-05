@@ -172,7 +172,7 @@
       "layout": "threeColumn",
       "category": 34,
       "enableAutoSliding": true,
-      "durationAutoSliding": null
+      "durationAutoSliding": 50
     },
     {
       "layout": "bannerImage",
