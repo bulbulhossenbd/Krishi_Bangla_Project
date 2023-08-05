@@ -172,7 +172,7 @@
       "layout": "threeColumn",
       "category": 34,
       "enableAutoSliding": true,
-      "durationAutoSliding": null  // It must be null or integer or not set
+      "durationAutoSliding": null
     },
     {
       "layout": "bannerImage",
