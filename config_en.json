@@ -14,7 +14,7 @@
       "radius": 50.0,
       "items": [
         {
-          "category": 18,
+          "category": 34,
           "image": "https://user-images.githubusercontent.com/1459805/62820029-2e679f00-bb88-11e9-80de-fdf115cfd942.png",
           "colors": [
             "#3CC2BF",
@@ -23,7 +23,7 @@
           "originalColor": false
         },
         {
-          "category": 24,
+          "category": 34,
           "label": "Bag",
           "image": "https://trello-attachments.s3.amazonaws.com/60a62a9bca5053572a669dee/48x58/a68d188ae063a20eac903fe2ca00ece5/ic_dress.png",
           "colors": [
@@ -32,7 +32,7 @@
           ]
         },
         {
-          "category": 25,
+          "category": 34,
           "label": "Blazers",
           "image": "https://trello-attachments.s3.amazonaws.com/60a62a9bca5053572a669dee/68x54/93b296bf55ec19d22778158bf06d2dbc/ic_shorts.png",
           "colors": [
@@ -41,7 +41,7 @@
           ]
         },
         {
-          "category": 28,
+          "category": 34,
           "label": "Shoes",
           "image": "https://trello-attachments.s3.amazonaws.com/60a62a9bca5053572a669dee/68x50/bf817e570f9d704dc88dad8bb29386d1/ic_shoes.png",
           "colors": [
@@ -50,7 +50,7 @@
           ]
         },
         {
-          "category": 29,
+          "category": 34,
             "label": "Jeans",
           "image": "https://trello-attachments.s3.amazonaws.com/60a62a9bca5053572a669dee/72x38/8c778c1b92f5ca02e00c4a34b562c601/ic_tie.png",
           "colors": [
@@ -79,17 +79,17 @@
       "radius": 2.0,
       "items": [
         {
-          "category": 29,
+          "category": 34,
           "image": "https://trello-attachments.s3.amazonaws.com/5f8fe6093cd3ef24d9ede5f5/1185x561/e13d41fd04e4da0833097ab4e893c8c5/Mobile_Template_1b.png",
           "padding": 15.0
         },
         {
-          "category": 28,
+          "category": 34,
           "image": "https://user-images.githubusercontent.com/1459805/59846818-12672e80-938b-11e9-8184-5f7bfe66f1a2.png",
           "padding": 15.0
         },
         {
-          "product": 30,
+          "product": 34,
           "image": "https://user-images.githubusercontent.com/1459805/60091808-a19b8a00-976f-11e9-9cc7-576ca05c2442.png",
           "padding": 15.0
         }
@@ -150,7 +150,7 @@
       "name": "Man Collections",
       "image": "",
       "layout": "twoColumn",
-      "category": 21
+      "category": 34
     },
     {
       "layout": "bannerImage",
@@ -175,14 +175,10 @@
       "layout": "recentView"
     },
     {
-      "name": "Our Blog Posts",
-      "layout": "blog"
-    },
-    {
       "name": "New Collections",
       "layout": "staggered",
       "limit": 20,
-      "category": 29
+      "category": 34
     }
   ],
   "Setting": {
@@ -190,9 +186,9 @@
     "FontFamily": "Roboto",
     "FontHeader": "Raleway",
     "ProductListLayout": "list",
-    "StickyHeader": false,
+    "StickyHeader": true,
     "ShowChat": true,
-    "useMaterial3": false,
+    "useMaterial3": true,
     "AgeRestriction": {
       "enable": false,
       "imageUrl": "",
@@ -206,7 +202,7 @@
     },
     "SmartEngagementBanner": {
       "popup": {
-        "enable": false,
+        "enable": true,
         "data": {
           "layout": "bannerImage",
           "design": "static",
@@ -219,7 +215,7 @@
               "bannerWithProduct": false,
               "defaultShowProduct": false,
               "products": [],
-              "category": "22",
+              "category": "34",
               "padding": 0.0
             }
           ],
