@@ -159,6 +159,22 @@
       "category": 34
     },
     {
+      "name": "Latest Products",
+      "image": "",
+      "layout": "twoColumn",
+      "isSnapping": true,
+      "category": 34,
+      "showCartButtonWithQuantity": true
+    },
+    {
+      "name": "Man Collections",
+      "image": "",
+      "layout": "threeColumn",
+      "category": 34,
+      "enableAutoSliding": true,
+      "durationAutoSliding": null  // It must be null or integer or not set
+    },
+    {
       "layout": "bannerImage",
       "design": "static",
       "fit": "fitWidth",
