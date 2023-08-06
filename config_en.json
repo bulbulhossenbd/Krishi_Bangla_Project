@@ -197,6 +197,21 @@
       "layout": "recentView"
     },
     {
+    "layout": "bannerImage",
+    ....
+    "isSoundOn": true,
+    "autoPlayVideo": true,
+    "enableTimeIndicator": true,
+    "doubleTapToFullScreen": true,
+    "items": [
+        
+        {
+            "padding": 15.0,
+            "video": "https://storage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4"
+        }
+    ]
+},
+    {
       "name": "New Collections",
       "layout": "staggered",
       "limit": 20,
