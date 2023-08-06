@@ -109,7 +109,7 @@
       "hPadding": 8.0,
       "vPadding": 6.0,
       "pos": 400,
-      "showStockStatus": false,
+      "showStockStatus": true,
       "enableRating": true,
       "hideTitle": false,
       "hideStore": false,
@@ -197,25 +197,11 @@
       "layout": "recentView"
     },
 {
-      "layout": "instagramStory",
-      "path": "explore/tags/korean_clothes",
-      "usePath": true
-},
-    { 
-      "username": "thepetcollective", 
-      "limit": 10, 
-      "marginLeft": 16.0, 
-      "marginRight": 16.0, 
-      "marginTop": 8.0, 
-      "marginBottom": 8.0, 
-      "itemBorderRadius": 10, 
-      "itemWidth": 100, 
-      "itemHeight": 200, 
-      "itemSpacing": 10, 
-      "hideAvatar": false, 
-      "hideCaption": false, 
-      "layout": "tiktokVideos" 
-    },
+      "layout": "brand", 
+      "name": "Top Brand Choices", 
+      "isBrandNameShown": true , 
+      "isLogoCornerRounded":  true},
+    
     {
       "name": "New Collections",
       "layout": "staggered",
