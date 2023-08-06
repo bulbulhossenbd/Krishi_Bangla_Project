@@ -196,20 +196,26 @@
       "name": "Recent View",
       "layout": "recentView"
     },
-    {
-    "layout": "bannerImage",
-    "isSoundOn": true,
-    "autoPlayVideo": true,
-    "enableTimeIndicator": true,
-    "doubleTapToFullScreen": true,
-    "items": [
-        
-        {
-            "padding": 15.0,
-            "video": "https://storage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4"
-        }
-    ]
+{
+      "layout": "instagramStory",
+      "path": "explore/tags/korean_clothes",
+      "usePath": true
 },
+    { 
+      "username": "thepetcollective", 
+      "limit": 10, 
+      "marginLeft": 16.0, 
+      "marginRight": 16.0, 
+      "marginTop": 8.0, 
+      "marginBottom": 8.0, 
+      "itemBorderRadius": 10, 
+      "itemWidth": 100, 
+      "itemHeight": 200, 
+      "itemSpacing": 10, 
+      "hideAvatar": false, 
+      "hideCaption": false, 
+      "layout": "tiktokVideos" 
+    },
     {
       "name": "New Collections",
       "layout": "staggered",
