@@ -1,356 +1,1749 @@
 {
-  "HorizonLayout": [
-    {
-      "layout": "logo",
-      "showMenu": true,
-      "showSearch": true,
-      "showLogo": true
-    },
-    {
-      "layout": "category",
-      "type": "icon",
-      "wrap": false,
-      "size": 1.0,
-      "radius": 50.0,
-      "items": [
-        {
-          "category": 34,
-          "image": "https://user-images.githubusercontent.com/1459805/62820029-2e679f00-bb88-11e9-80de-fdf115cfd942.png",
-          "colors": [
-            "#3CC2BF",
-            "#3CC2BF"
-          ],
-          "originalColor": false
-        },
-        {
-          "category": 34,
-          "label": "Bag",
-          "image": "https://trello-attachments.s3.amazonaws.com/60a62a9bca5053572a669dee/48x58/a68d188ae063a20eac903fe2ca00ece5/ic_dress.png",
-          "colors": [
-            "#3E6AB5",
-            "#3E6AB5"
-          ]
-        },
-        {
-          "category": 34,
-          "label": "Blazers",
-          "image": "https://trello-attachments.s3.amazonaws.com/60a62a9bca5053572a669dee/68x54/93b296bf55ec19d22778158bf06d2dbc/ic_shorts.png",
-          "colors": [
-            "#53A2CC",
-            "#53A2CC"
-          ]
-        },
-        {
-          "category": 34,
-          "label": "Shoes",
-          "image": "https://trello-attachments.s3.amazonaws.com/60a62a9bca5053572a669dee/68x50/bf817e570f9d704dc88dad8bb29386d1/ic_shoes.png",
-          "colors": [
-            "#53688A",
-            "#53688A"
-          ]
-        },
-        {
-          "category": 34,
-            "label": "Jeans",
-          "image": "https://trello-attachments.s3.amazonaws.com/60a62a9bca5053572a669dee/72x38/8c778c1b92f5ca02e00c4a34b562c601/ic_tie.png",
-          "colors": [
-            "#43506A",
-            "#43506A"
-          ]
-        },
-        {
-          "category": 30,
-            "label": "Jeans Man",
-          "image": "https://trello-attachments.s3.amazonaws.com/60a62a9bca5053572a669dee/68x34/e20dbfd9e05fb3fbb8991d5d2213a9b0/ic_panties.png",
-          "colors": [
-            "#12B58C",
-            "#12B58C"
-          ]
-        }
-      ]
-    },
-    {
-      "layout": "bannerImage",
-      "isSlider": true,
-      "autoPlay": true,
-      "showNumber": true,
-      "design": "default",
-      "showBackGround": true,
-      "radius": 2.0,
-      "items": [
-        {
-          "category": 34,
-          "image": "https://trello-attachments.s3.amazonaws.com/5f8fe6093cd3ef24d9ede5f5/1185x561/e13d41fd04e4da0833097ab4e893c8c5/Mobile_Template_1b.png",
-          "padding": 15.0
-        },
-        {
-          "category": 34,
-          "image": "https://user-images.githubusercontent.com/1459805/59846818-12672e80-938b-11e9-8184-5f7bfe66f1a2.png",
-          "padding": 15.0
-        },
-        {
-          "product": 34,
-          "image": "https://user-images.githubusercontent.com/1459805/60091808-a19b8a00-976f-11e9-9cc7-576ca05c2442.png",
-          "padding": 15.0
-        }
-      ]
-    },
-    {
-      "key": "v14g5clzc34tf8",
-      "name": "On Sale Today ⚡️",
-      "layout": "saleOff",
-      "isSnapping": true,
-      "rows": 1,
-      "columns": 0,
-      "imageBoxfit": "cover",
-      "imageRatio": 1.2,
-      "hMargin": 9.0,
-      "vMargin": 30.0,
-      "hPadding": 8.0,
-      "vPadding": 6.0,
-      "pos": 400,
-      "showStockStatus": true,
-      "enableRating": true,
-      "hideTitle": false,
-      "hideStore": false,
-      "onSale": true,
-      "hidePrice": false,
-      "featured": false,
-      "showHeart": true,
-      "showCartButton": false,
-      "cartIconRadius": 9.0,
-      "showQuantity": false,
-      "showCartIconColor": false,
-      "showCartIcon": false,
-      "enableBottomAddToCart": false,
-      "cardDesign": "card",
-      "borderRadius": 12.0,
-      "backgroundRadius": 0.0,
-      "showCartButtonWithQuantity": false,
-      "category": "34",
-      "tag": null,
-      "showCountDown": true,
-      "backgroundColor": "ffF1F8FA",
-      "backgroundImage": "https://trello.com/1/cards/6237d7a3eb71c81e0a45964b/attachments/626281b57aedd4517a682e40/previews/626281b67aedd4517a682e5a/download/sale4.png",
-      "spaceWidth": 130.0,
-      "backgroundHeight": 288.0,
-      "backgroundBoxFit": "contain",
-      "parallax": true,
-      "parallaxImageRatio": 1.2,
-      "boxShadow": {
-        "blurRadius": 14.0,
-        "colorOpacity": 0.1,
-        "spreadRadius": 10.0,
-        "x": 0.0,
-        "y": 6.0
-      },
-      "hideEmptyProductLayout": false
-    },
-    {
-      "name": "Man Collections",
-      "image": "",
-      "layout": "twoColumn",
-      "category": 34
-    },
-        {
-      "name": "Women's Collections",
-      "image": "",
-      "layout": "threeColumn",
-      "category": 34
-    },
-    {
-      "name": "Latest Products",
-      "image": "",
-      "layout": "twoColumn",
-      "isSnapping": true,
-      "category": 34,
-      "showCartButtonWithQuantity": true
-    },
-    {
-      "name": "Man Collections",
-      "image": "",
-      "layout": "threeColumn",
-      "category": 34,
-      "enableAutoSliding": true,
-      "durationAutoSliding": 50
-    },
-    {
-      "layout": "bannerImage",
-      "design": "static",
-      "fit": "fitWidth",
-      "marginLeft": 0.0,
-      "items": [
-        {
-          "image": "https://trello-attachments.s3.amazonaws.com/5fb8de4a9ffe12204a2a3607/700x263/f5d6007a5563735691c68eb12563d1e5/image.png",
-          "coupon": "blackf",
-          "padding": 15.0,
-          "radius": 9.0
-        }
-      ],
-      "marginBottom": 0.0,
-      "height": 0.15,
-      "marginRight": 0.0,
-      "marginTop": 20.0
-    },
-    {
-      "name": "Recent View",
-      "layout": "recentView"
-    },
+"HorizonLayout":[
 {
-      "layout": "brand", 
-      "name": "Top Brand Choices", 
-      "isBrandNameShown": true , 
-      "isLogoCornerRounded":  true},
-    
-    {
-      "name": "New Collections",
-      "layout": "staggered",
-      "limit": 20,
-      "category": 34
-    }
-  ],
-  "Setting": {
-    "MainColor": "#3FC1BE",
-    "FontFamily": "Roboto",
-    "FontHeader": "Raleway",
-    "ProductListLayout": "list",
-    "StickyHeader": true,
-    "ShowChat": true,
-    "useMaterial3": true,
-    "AgeRestriction": {
-      "enable": false,
-      "imageUrl": "",
-      "backgroundImageUrl": "",
-      "title": "Welcome to our shop\nYou must be 21 or older to enter",
-      "deniedMessage": "You are not of legal age to use this application",
-      "hintMessage": "What is your year of birth?",
-      "minimumAge": 21,
-      "useLogo": true,
-      "alwaysShowUponOpen": true
-    },
-    "SmartEngagementBanner": {
-      "popup": {
-        "enable": true,
-        "data": {
-          "layout": "bannerImage",
-          "design": "static",
-          "fit": "fitHeight",
-          "marginLeft": null,
-          "items": [
-            {
-              "image": "https://i.imgur.com/ZL1LO75.png",
-              "showSubcategory": false,
-              "bannerWithProduct": false,
-              "defaultShowProduct": false,
-              "products": [],
-              "category": "34",
-              "padding": 0.0
-            }
-          ],
-          "marginBottom": 10.0,
-          "height": 0.45,
-          "marginRight": null,
-          "marginTop": 10.0,
-          "enableParallax": false,
-          "parallaxImageRatio": 1.2,
-          "isHorizontal": false,
-          "parallax": false,
-          "key": "p2oq4zc4hg"
-        },
-        "alwaysShowUponOpen": true,
-        "closePosition": "topRight",
-        "updatedTime": 1661314494281
-      },
-      "flexible": {
-        "enable": false,
-        "data": {
-          "alignment": "topCenter",
-          "marginTop": 0.0,
-          "marginBottom": 0.0,
-          "items": [
-            {
-              "image": "https://assets9.lottiefiles.com/private_files/lf30_a4mKwA.json",
-              "width": 100.0,
-              "height": 80.0,
-              "borderRadius": 2.0,
-              "marginLeft": 0.0,
-              "marginRight": 0.0,
-              "textFontSize": 14.0,
-              "useMaxWidth": true,
-              "navigator": {
-                "showSubcategory": false,
-                "coupon": "blackf"
-              }
-            }
-          ],
-          "layout": "button"
-        },
-        "canDrag": true,
-        "canClose": true,
-        "width": 100.0,
-        "height": 100.0
-      },
-      "sticky": {
-        "enable": false,
-        "data": {
-          "layout": "bannerImage",
-          "design": "static",
-          "fit": "fitWidth",
-          "marginLeft": 10.0,
-          "items": [
-            {
-              "image": "https://i.imgur.com/LUaEM3v.jpeg",
-              "showSubcategory": false,
-              "bannerWithProduct": false,
-              "defaultShowProduct": false,
-              "products": [],
-              "coupon": "halfprice",
-              "padding": 0.0,
-              "radius": 9.0
-            }
-          ],
-          "marginBottom": 10.0,
-          "marginRight": 10.0,
-          "marginTop": 10.0,
-          "height": 0.2,
-          "enableParallax": false,
-          "parallaxImageRatio": 1.2,
-          "isHorizontal": false,
-          "parallax": false,
-          "key": "ga8oe39k5t"
-        }
-      }
-    }
-  },
-  "TabBar": [
-    {
-      "layout": "home",
-      "icon": "assets/icons/tabs/icon-home.png"
-    },
-    {
-      "layout": "videos",
-      "icon": "assets/icons/tabs/icon-videos.png"
-    },
-    {
-      "layout": "category",
-      "categoryLayout": "card",
-      "icon": "assets/icons/tabs/icon-category.png"
-    },
-    {
-      "layout": "cart",
-      "icon": "assets/icons/tabs/icon-cart2.png"
-    },
-    {
-      "layout": "profile",
-      "icon": "assets/icons/tabs/icon-user.png",
-      "showChat": true
-    }
-  ],
-  "searchSuggestion": [
-    "Here are some suggestions:",
-    "Print",
-    "T-Shirt",
-    "Jersey",
-    "Hoodie"
-  ]
+"parallax":false,
+"doubleTapToFullScreen":false,
+"isHorizontal":false,
+"fit":"cover",
+"marginRight":null,
+"isBlur":false,
+"parallaxImageRatio":1.2,
+"showNumber":false,
+"design":"default",
+"showBackground":false,
+"radius":9,
+"enableTimeIndicator":false,
+"height":0.2,
+"intervalTime":3,
+"padding":0,
+"upHeight":0,
+"pageIndicatorType":"line",
+"isSlider":true,
+"isSoundOn":false,
+"enableParallax":false,
+"autoPlayVideo":false,
+"marginLeft":null,
+"layout":"bannerImage",
+"marginBottom":0,
+"autoPlay":true,
+"items":[
+{
+"image":"https://icms-image.slatic.net/images/ims-web/d39bc0af-2858-4469-8d6b-5e3ec28047b5.jpg_1200x1200.jpg",
+"tab_number":"10",
+"bannerWithProduct":false,
+"showSubcategory":false,
+"video":"",
+"defaultShowProduct":false,
+"products":[]
+},
+{
+"image":"https://icms-image.slatic.net/images/ims-web/ddfdefe5-8de5-4ea0-b39a-500be807901d.jpg",
+"tab_number":"4",
+"bannerWithProduct":false,
+"showSubcategory":false,
+"video":"",
+"defaultShowProduct":false,
+"products":[]
+},
+{
+"image":"https://icms-image.slatic.net/images/ims-web/f861aba7-fd0d-4ce8-b94e-301cbfef1cdf.jpg",
+"bannerWithProduct":false,
+"showSubcategory":false,
+"video":"",
+"enableBackward":true,
+"defaultShowProduct":false,
+"url":"https://wowskinsciencebangladesh.com/",
+"products":[],
+"enableForward":true
+},
+{
+"image":"https://icms-image.slatic.net/images/ims-web/8bef6653-b5cf-4f33-8bd0-cc908af763ba.jpg",
+"coupon":"100BDT",
+"bannerWithProduct":false,
+"showSubcategory":false,
+"video":"",
+"defaultShowProduct":false,
+"products":[]
 }
+],
+"marginTop":10
+},
+{
+"alignment":"topCenter",
+"marginTop":0,
+"marginBottom":11,
+"items":[
+{
+"image":"https://www.thrivedesk.com/wp-content/uploads/2022/07/icon-128x128-9.gif",
+"backgroundColor":"ffff5722",
+"textColor":"ffffffff",
+"width":70.0,
+"height":40.0,
+"borderRadius":23,
+"marginLeft":5,
+"marginRight":0,
+"textFontSize":14,
+"useMaxWidth":false,
+"navigator":{
+"showSubcategory":false,
+"tab_number":"14"}
+},
+{
+"image":"https://images.ctfassets.net/mpv16aisnpdx/5t26eL8lkTt7ptVDWjDTyT/53c8fb9f617d98a7d48c422183eecffe/rocket.gif",
+"backgroundColor":"ffff5722",
+"textColor":"ffffffff",
+"width":70.0,
+"height":40.0,
+"borderRadius":23,
+"marginLeft":5,
+"marginRight":0,
+"textFontSize":14,
+"useMaxWidth":false,
+"navigator":{
+"showSubcategory":false,
+"tab_number":"18"}
+},
+{
+"image":"https://cdn.shopify.com/s/files/1/0430/3939/1895/files/Attachment-1.gif?height=256&v=1682888981",
+"backgroundColor":"ffff5722",
+"textColor":"ffffffff",
+"width":70.0,
+"height":40.0,
+"borderRadius":23,
+"marginLeft":5,
+"marginRight":0,
+"textFontSize":14,
+"useMaxWidth":false,
+"navigator":{
+"showSubcategory":false,
+"screen":"login"}
+},
+{
+"image":"https://i.ibb.co/2Y8RFGv/1871427-delivery-online-shop-shopping-icon.png",
+"backgroundColor":"ffff5722",
+"textColor":"ffffffff",
+"width":70.0,
+"height":40.0,
+"borderRadius":23,
+"marginLeft":5,
+"marginRight":0,
+"textFontSize":14,
+"useMaxWidth":false,
+"navigator":{
+"showSubcategory":false,
+"screen":"login"}
+}
+],
+"layout":"button"
+},
+{
+"alignment":"topCenter",
+"marginTop":0,
+"marginBottom":11,
+"items":[
+{
+"text":"Login",
+"backgroundColor":"ffff5722",
+"textColor":"ffffffff",
+"width":75,
+"height":25,
+"borderRadius":23,
+"marginLeft":5,
+"marginRight":0,
+"textFontSize":14,
+"useMaxWidth":false,
+"navigator":{
+"showSubcategory":false,
+"screen":"login"}
+},
+{
+"text":"Order",
+"backgroundColor":"ff4caf50",
+"textColor":"ffffffff",
+"width":75,
+"height":25,
+"borderRadius":23,
+"marginLeft":5,
+"marginRight":0,
+"textFontSize":14,
+"useMaxWidth":false,
+"navigator":{
+"screen":"orders",
+"showSubcategory":false}
+},
+{
+"text":"Notify",
+"backgroundColor":"ff3f51b5",
+"textColor":"ffffffff",
+"width":75,
+"height":25,
+"borderRadius":23,
+"marginLeft":5,
+"marginRight":0,
+"textFontSize":14,
+"useMaxWidth":false,
+"navigator":{
+"screen":"notify",
+"showSubcategory":false}
+},
+{
+"text":"Wishlist",
+"backgroundColor":"ff795548",
+"textColor":"ffffffff",
+"width":75,
+"height":25,
+"borderRadius":23,
+"marginLeft":5,
+"marginRight":0,
+"textFontSize":14,
+"useMaxWidth":false,
+"navigator":{
+"fullscreen":false,
+"screen":"wishlist",
+"showSubcategory":false}
+}
+],
+"layout":"button"
+},
+{
+"isSafeArea":true,
+"showSearch":false,
+"usePrimaryColor":true,
+"borderInput":false,
+"title":"",
+"type":"typer",
+"backgroundColor":"ffeceff1",
+"textColor":"ff363434",
+"alignment":"center",
+"fontWeight":400,
+"fontSize":20,
+"textOpacity":0.7,
+"marginLeft":10,
+"marginRight":10,
+"marginBottom":0,
+"marginTop":0,
+"paddingLeft":0,
+"paddingRight":0,
+"paddingTop":0,
+"paddingBottom":0,
+"height":49.8,
+"rotate":["10% Offer Kid Items",
+"10% Offer Women's Items",
+"30% Offer Eid Offers All Items"],
+"minWidth":0,
+"layout":"header_text"
+},
+{
+"showCartIcon":true,
+"boxShadow":{
+"spreadRadius":10,
+"colorOpacity":0.1,
+"blurRadius":10,
+"x":7,
+"y":9
+},
+"featured":false,
+"imageBoxfit":"cover",
+"showStockStatus":true,
+"hideEmptyProductLayout":false,
+"titleLine":1,
+"showCountDown":false,
+"parallax":false,
+"hideStore":false,
+"columns":0,
+"showQuantity":false,
+"vPadding":0,
+"showHeart":true,
+"hMargin":9,
+"durationAutoSliding":50,
+"parallaxImageRatio":1.2,
+"showCartButtonWithQuantity":false,
+"showOnlyImage":false,
+"vMargin":18,
+"limit":50,
+"onSale":false,
+"productType":false,
+"image":"",
+"backgroundColor":"ffd1c4e9",
+"productListItemHeight":125,
+"showCartIconColor":false,
+"hPadding":8,
+"hidePrice":false,
+"rows":1,
+"enableBottomAddToCart":false,
+"enableRating":true,
+"layout":"threeColumn",
+"imageRatio":1.2,
+"borderRadius":10,
+"hideTitle":false,
+"backgroundHeight":188,
+"cardDesign":"card",
+"backgroundRadius":0,
+"isSnapping":true,
+"showCartButton":false,
+"name":"Eid Collection",
+"cartIconRadius":9,
+"enableAutoSliding":true,
+"backgroundWidthMode":true,
+"hideEmptyProductListRating":false,
+"spaceWidth":7.613390928725773
+},
+{
+"layout":"divider",
+"color":"ffe91e63",
+"thickness":0.5,
+"indent":44,
+"endIndent":42.00000000000001
+},
+{
+"parallax":false,
+"doubleTapToFullScreen":false,
+"isHorizontal":false,
+"fit":"fitWidth",
+"marginRight":null,
+"isBlur":false,
+"parallaxImageRatio":1.2,
+"showNumber":false,
+"design":"swiper",
+"showBackground":false,
+"radius":20,
+"enableTimeIndicator":true,
+"intervalTime":3,
+"padding":0,
+"upHeight":0,
+"pageIndicatorType":"line",
+"isSlider":true,
+"isSoundOn":false,
+"enableParallax":false,
+"autoPlayVideo":false,
+"marginLeft":null,
+"layout":"bannerImage",
+"marginBottom":13,
+"autoPlay":true,
+"items":[
+{
+"image":"https://user-images.githubusercontent.com/1459805/62834035-2899b880-bc71-11e9-9ed8-4ce1790e0460.jpg",
+"bannerWithProduct":false,
+"showSubcategory":false,
+"video":"",
+"defaultShowProduct":false,
+"products":[]
+},
+{
+"image":"https://user-images.githubusercontent.com/1459805/62834034-2899b880-bc71-11e9-956b-64e6d0c35d46.jpg",
+"bannerWithProduct":false,
+"showSubcategory":false,
+"video":"",
+"defaultShowProduct":false,
+"products":[]
+},
+{
+"image":"https://user-images.githubusercontent.com/1459805/62834031-28012200-bc71-11e9-9980-f090df262343.jpg",
+"bannerWithProduct":false,
+"showSubcategory":false,
+"video":"",
+"defaultShowProduct":false,
+"products":[]
+},
+{
+"image":"https://inspireui.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F81c15a81-af1c-4098-a5a1-8b8a21f58441%2Fbanner1.png?table=block&id=a8f3b172-92c3-4d05-9890-0c84a4a50488&spaceId=adfc7c52-309f-45b9-8822-60b33369c98c&width=2000&userId=&cache=v2",
+"bannerWithProduct":false,
+"showSubcategory":false,
+"video":"",
+"defaultShowProduct":false,
+"products":[]
+}
+],
+"marginTop":12
+},
+{
+"layout":"spacer",
+"backgroundColor":"ff009688",
+"useLightColor":false,
+"height":1.943844492440677
+},
+{
+"layout":"story",
+"countColumn":4,
+"data":[
+{
+"layout":5,
+"contents":[
+{
+"paddingContent":{
+"top":0,
+"left":0,
+"bottom":0,
+"right":0
+},
+"typography":{
+"transform":"normal",
+"color":"#FFFFFF",
+"weight":"900",
+"fontSize":50,
+"fontStyle":"normal",
+"align":"center",
+"font":"Anek Devanagari"
+},
+"spacing":{
+"padding":{
+"top":0,
+"left":0,
+"bottom":0,
+"right":0
+},
+"margin":{
+"top":40,
+"left":0,
+"bottom":0,
+"right":0}
+},
+"link":{
+"tag":"",
+"type":"tab_number",
+"value":"5"
+},
+"title":"Buy Now",
+"animation":{
+"milliseconds":300,
+"delaySecond":0,
+"type":""}
+}
+],
+"urlImage":"https://images.unsplash.com/photo-1550639525-c97d455acf70?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxNDkyMzd8MHwxfHNlYXJjaHw2fHxkcmVzc3xlbnwwfHx8fDE2OTEzODA4MTl8MA&ixlib=rb-4.0.3&q=80&w=400"
+},
+{
+"layout":7,
+"contents":[
+{
+"paddingContent":{
+"top":0.3,
+"left":0,
+"bottom":0,
+"right":0
+},
+"typography":{
+"transform":"full",
+"color":"#FFFFFF",
+"weight":"400",
+"fontSize":40,
+"fontStyle":"bold",
+"align":"center",
+"font":"Lobster"
+},
+"spacing":{
+"padding":{
+"top":0,
+"left":0,
+"bottom":0,
+"right":0
+},
+"margin":{
+"top":0,
+"left":0,
+"bottom":0,
+"right":0}
+},
+"link":{
+"tag":"",
+"type":"category",
+"value":""
+},
+"title":"Shop Custom Made",
+"animation":{
+"milliseconds":300,
+"delaySecond":0,
+"type":"fadeIn"}
+},
+{
+"paddingContent":{
+"top":0.2,
+"left":0,
+"bottom":0,
+"right":0
+},
+"typography":{
+"transform":"full",
+"color":"#FFFFFF",
+"weight":"400",
+"fontSize":15,
+"fontStyle":"normal",
+"align":"center",
+"font":"Roboto"
+},
+"spacing":{
+"padding":{
+"top":0,
+"left":0,
+"bottom":0,
+"right":0
+},
+"margin":{
+"top":0,
+"left":0,
+"bottom":0,
+"right":0}
+},
+"link":{
+"tag":"",
+"type":"category",
+"value":""
+},
+"title":"Personalized shopping is our newest obsession.",
+"animation":{
+"milliseconds":300,
+"delaySecond":0,
+"type":"fadeIn"}
+}
+],
+"urlImage":"https://images.unsplash.com/photo-1595777457583-95e059d581b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxNDkyMzd8MHwxfHNlYXJjaHwxfHxkcmVzc3xlbnwwfHx8fDE2OTEzODA4MTl8MA&ixlib=rb-4.0.3&q=80&w=400"
+},
+{
+"layout":10,
+"contents":[],
+"urlImage":"https://images.unsplash.com/photo-1605763240000-7e93b172d754?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxNDkyMzd8MHwxfHNlYXJjaHw1fHxkcmVzc3xlbnwwfHx8fDE2OTEzODA4MTl8MA&ixlib=rb-4.0.3&q=80&w=400"
+},
+{
+"layout":9,
+"contents":[],
+"urlImage":"https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxNDkyMzd8MHwxfHNlYXJjaHw3fHxkcmVzc3xlbnwwfHx8fDE2OTEzODA4MTl8MA&ixlib=rb-4.0.3&q=80&w=400"
+},
+{
+"layout":4,
+"contents":[],
+"urlImage":"https://images.unsplash.com/photo-1651646781428-18b47ae1e17b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxNDkyMzd8MHwxfHNlYXJjaHw4fHxwYW5qYWJpfGVufDB8fHx8MTY5MTM4MDg5MXww&ixlib=rb-4.0.3&q=80&w=400"
+},
+{
+"layout":2,
+"contents":[],
+"urlImage":"https://images.unsplash.com/photo-1616429321229-733d6a7ff456?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxNDkyMzd8MHwxfHNlYXJjaHw2fHxwYW5qYWJpfGVufDB8fHx8MTY5MTM4MDg5MXww&ixlib=rb-4.0.3&q=80&w=400"
+},
+{
+"layout":1,
+"contents":[],
+"urlImage":"https://images.unsplash.com/photo-1542295669297-4d352b042bca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxNDkyMzd8MHwxfHNlYXJjaHw5fHxkcmVzc3xlbnwwfHx8fDE2OTEzODA4MTl8MA&ixlib=rb-4.0.3&q=80&w=400"
+}
+],
+"name":"New Products",
+"active":true,
+"radius":9
+},
+{
+"showCartIcon":true,
+"boxShadow":{
+"spreadRadius":10,
+"colorOpacity":0.1,
+"blurRadius":10,
+"x":7,
+"y":9
+},
+"featured":false,
+"imageBoxfit":"cover",
+"showStockStatus":true,
+"hideEmptyProductLayout":false,
+"titleLine":1,
+"showCountDown":false,
+"parallax":false,
+"hideStore":false,
+"columns":0,
+"showQuantity":false,
+"vPadding":0,
+"showHeart":true,
+"hMargin":9,
+"parallaxImageRatio":1.2,
+"showCartButtonWithQuantity":false,
+"showOnlyImage":false,
+"vMargin":18,
+"limit":50,
+"onSale":false,
+"productType":false,
+"image":"",
+"backgroundColor":"ffa5d6a7",
+"productListItemHeight":125,
+"showCartIconColor":false,
+"hPadding":8,
+"hidePrice":false,
+"rows":1,
+"enableBottomAddToCart":false,
+"enableRating":false,
+"layout":"twoColumn",
+"imageRatio":1.2,
+"borderRadius":12,
+"hideTitle":false,
+"backgroundHeight":183,
+"cardDesign":"card",
+"backgroundRadius":0,
+"isSnapping":true,
+"showCartButton":false,
+"name":"New Collections ⭐️",
+"cartIconRadius":9,
+"enableAutoSliding":false,
+"backgroundWidthMode":true,
+"hideEmptyProductListRating":false,
+"spaceWidth":12.608443859011626
+},
+{
+"layout":"twoColumn",
+"image":"",
+"name":"Man Collections"
+},
+{
+"showCartIcon":true,
+"imageBoxfit":"cover",
+"showStockStatus":true,
+"hideEmptyProductLayout":false,
+"showCountDown":false,
+"parallax":false,
+"columns":3,
+"hideStore":false,
+"vPadding":2,
+"showQuantity":false,
+"showHeart":false,
+"hMargin":6,
+"parallaxImageRatio":1.2,
+"showCartButtonWithQuantity":false,
+"vMargin":0,
+"showOnlyImage":false,
+"limit":20,
+"onSale":false,
+"productType":false,
+"image":"",
+"productListItemHeight":125,
+"showCartIconColor":false,
+"hPadding":6,
+"hidePrice":false,
+"rows":1,
+"enableBottomAddToCart":false,
+"layout":"largeCard",
+"enableRating":true,
+"imageRatio":1.2,
+"borderRadius":3,
+"hideTitle":false,
+"cardDesign":"card",
+"backgroundRadius":10,
+"isSnapping":false,
+"showCartButton":false,
+"name":"New Collections",
+"cartIconRadius":9,
+"enableAutoSliding":false,
+"hideEmptyProductListRating":false
+},
+{
+"layout":"recentView",
+"name":"Recent View"
+}
+],
+"Setting":{
+"TabBarConfig":{
+"enableOnTop":false,
+"color":null,
+"radiusTopLeft":0,
+"paddingRight":0,
+"radiusTopRight":0,
+"TabBarIndicator":{
+"strokeWidth":null,
+"color":null,
+"horizontalPadding":0,
+"topRightRadius":null,
+"tabPosition":"bottom",
+"bottomRightRadius":null,
+"bottomLeftRadius":null,
+"topLeftRadius":null,
+"paintingStyle":"fill",
+"distanceFromCenter":null,
+"radius":null,
+"verticalPadding":null,
+"height":null
+},
+"showMinimize":false,
+"marginRight":0,
+"enableDivider":true,
+"paddingBottom":0,
+"indicatorStyle":"material",
+"enable":true,
+"radiusBottomRight":0,
+"iconSize":24,
+"showFloatingClip":true,
+"paddingTop":0,
+"isSafeArea":true,
+"TabBarFloating":{
+"elevation":10,
+"color":"ff018786",
+"width":70.261694164508,
+"floatingType":"diamond",
+"location":"centerDocked",
+"isCoverMode":true,
+"position":3,
+"notchMargin":3,
+"radius":null,
+"height":70.44671253505518
+},
+"showFloating":true,
+"colorActiveIcon":"ff018786",
+"colorCart":null,
+"radiusBottomLeft":0,
+"marginLeft":0,
+"colorIcon":"ff7a7b7f",
+"marginBottom":0,
+"paddingLeft":0,
+"marginTop":0
+},
+"FontFamily":"Ubuntu",
+"FontHeader":"Ubuntu",
+"ProductDetail":"halfSizeImageType",
+"useMaterial3":false,
+"MainColor":"#3FC1BE",
+"ShowChat":true,
+"AgeRestriction":{
+"enable":false,
+"alwaysShowUponOpen":true,
+"imageUrl":"",
+"minimumAge":21,
+"hintMessage":"What is your year of birth?",
+"useLogo":true,
+"title":"Welcome to our shop\nYou must be 21 or older to enter",
+"deniedMessage":"You are not of legal age to use this application",
+"backgroundImageUrl":""
+},
+"ProductListLayout":"list",
+"SmartEngagementBanner":{
+"popup":{
+"closePosition":"topRight",
+"updatedTime":1661314494281,
+"data":{
+"parallax":false,
+"enableParallax":false,
+"isHorizontal":false,
+"marginLeft":null,
+"layout":"bannerImage",
+"fit":"fitHeight",
+"marginRight":null,
+"parallaxImageRatio":1.2,
+"design":"static",
+"marginBottom":10,
+"items":[
+{
+"image":"https://i.imgur.com/ZL1LO75.png",
+"padding":0,
+"bannerWithProduct":false,
+"showSubcategory":false,
+"category":"22",
+"defaultShowProduct":false,
+"products":[]
+}
+],
+"marginTop":10,
+"key":"p2oq4zc4hg",
+"height":0.45
+},
+"enable":false,
+"alwaysShowUponOpen":true
+},
+"flexible":{
+"canClose":true,
+"data":{
+"layout":"button",
+"marginBottom":0,
+"alignment":"topCenter",
+"items":[
+{
+"marginRight":0,
+"textFontSize":14,
+"image":"https://assets9.lottiefiles.com/private_files/lf30_a4mKwA.json",
+"useMaxWidth":true,
+"borderRadius":2,
+"width":100,
+"navigator":{
+"tab":"tabMenu",
+"showSubcategory":false
+},
+"height":80,
+"marginLeft":0
+}
+],
+"marginTop":0,
+"key":"2fni5o2h9y"
+},
+"enable":true,
+"width":100,
+"canDrag":true,
+"height":100
+},
+"sticky":{
+"data":{
+"parallax":false,
+"doubleTapToFullScreen":false,
+"isHorizontal":false,
+"fit":"fitWidth",
+"marginRight":10,
+"isBlur":false,
+"parallaxImageRatio":1.2,
+"showNumber":false,
+"design":"default",
+"showBackground":false,
+"radius":6,
+"enableTimeIndicator":true,
+"key":"c34vyu4f91",
+"height":0.2,
+"intervalTime":3,
+"padding":0,
+"upHeight":0,
+"pageIndicatorType":"line",
+"isSlider":true,
+"isSoundOn":false,
+"enableParallax":false,
+"autoPlayVideo":false,
+"marginLeft":10,
+"layout":"bannerImage",
+"marginBottom":10,
+"autoPlay":true,
+"items":[
+{
+"image":"https://i.imgur.com/LUaEM3v.jpeg",
+"coupon":"halfprice",
+"bannerWithProduct":false,
+"showSubcategory":false,
+"video":"",
+"defaultShowProduct":false,
+"products":[]
+},
+{
+"image":"https://icms-image.slatic.net/images/ims-web/a33a0b0e-97f4-44f5-9f60-ec391f7523c5.jpg",
+"bannerWithProduct":false,
+"showSubcategory":false,
+"video":"",
+"defaultShowProduct":false,
+"products":[]
+}
+],
+"marginTop":10
+},
+"enable":false}
+},
+"StickyHeader":false
+},
+"TabBar":[
+{
+"layout":"home",
+"visible":true,
+"fullscreen":false,
+"pos":100,
+"defaultTab":true,
+"icon":"assets/icons/tabs/icon-home.png",
+"label":"Home",
+"key":"24pk2q3wdl"
+},
+{
+"layout":"tabMenu",
+"fontFamily":"CupertinoIcons",
+"visible":false,
+"fullscreen":false,
+"pos":200,
+"defaultTab":false,
+"icon":"square_favorites",
+"label":"Home",
+"key":"24pk2q3wdl"
+},
+{
+"layout":"category",
+"parallaxImageRatio":1.2,
+"fontFamily":"MaterialIcons",
+"visible":true,
+"fullscreen":false,
+"pos":300,
+"parallax":false,
+"defaultTab":false,
+"icon":"drag_indicator_outlined",
+"label":"Category",
+"categoryLayout":"sideMenuWithSub",
+"key":"24pk2q3wdl"
+},
+{
+"layout":"videos",
+"fontFamily":"CupertinoIcons",
+"visible":true,
+"fullscreen":false,
+"pos":400,
+"defaultTab":false,
+"icon":"videocam_circle",
+"label":"Short",
+"key":"24pk2q3wdl"
+},
+{
+"layout":"cart",
+"visible":false,
+"fullscreen":false,
+"pos":500,
+"defaultTab":false,
+"icon":"assets/icons/tabs/icon-cart2.png",
+"label":"Cart",
+"key":"24pk2q3wdl"
+},
+{
+"layout":"wishlist",
+"fontFamily":"CupertinoIcons",
+"fullscreen":false,
+"pos":600,
+"defaultTab":false,
+"icon":"profile_circled",
+"label":"Wishlist",
+"key":"24pk2q3wdl"
+},
+{
+"layout":"dynamic",
+"configs":{
+"HorizonLayout":[
+{
+"rotate":[],
+"usePrimaryColor":true,
+"paddingRight":15,
+"minWidth":0,
+"title":"Search",
+"type":"static",
+"marginLeft":20,
+"marginRight":20,
+"layout":"header_search",
+"paddingBottom":0,
+"pos":100,
+"showSearch":true,
+"borderInput":true,
+"textOpacity":0.8,
+"fontSize":18,
+"marginBottom":0,
+"paddingTop":0,
+"isSafeArea":false,
+"alignment":"centerLeft",
+"radius":9,
+"paddingLeft":12,
+"fontWeight":0,
+"marginTop":10,
+"height":45
+}
+],
+"VerticalLayout":{
+"showCartIcon":true,
+"showStockStatus":true,
+"hideStore":false,
+"showCartIconColor":false,
+"vPadding":2,
+"showQuantity":false,
+"hPadding":6,
+"hidePrice":false,
+"showHeart":false,
+"hMargin":6,
+"enableBottomAddToCart":false,
+"layout":"list",
+"enableRating":true,
+"imageRatio":1.3,
+"isVertical":true,
+"vMargin":0,
+"hideTitle":false,
+"borderRadius":3,
+"cardDesign":"card",
+"showCartButton":false,
+"name":"Skin  Products",
+"cartIconRadius":12,
+"shuffle":false,
+"key":"04rjcm2w13"}
+},
+"fullscreen":false,
+"pos":700,
+"defaultTab":false,
+"icon":"assets/icons/tabs/icon-user.png",
+"label":"one",
+"groupLayout":true,
+"menuLabel":"Skin",
+"key":"24pk2q3wdl"
+},
+{
+"layout":"tabMenu",
+"fontFamily":"CupertinoIcons",
+"visible":false,
+"fullscreen":false,
+"pos":800,
+"defaultTab":false,
+"icon":"left_chevron",
+"label":"tab 1",
+"key":"24pk2q3wdl"
+},
+{
+"layout":"tabMenu",
+"fontFamily":"CupertinoIcons",
+"visible":false,
+"fullscreen":false,
+"pos":900,
+"defaultTab":false,
+"icon":"right_chevron",
+"label":"tab 2",
+"key":"24pk2q3wdl"
+},
+{
+"layout":"dynamic",
+"configs":{
+"HorizonLayout":[],
+"VerticalLayout":{
+"showCartIcon":true,
+"showStockStatus":true,
+"hideStore":false,
+"showCartIconColor":false,
+"vPadding":2,
+"showQuantity":false,
+"hPadding":6,
+"hidePrice":false,
+"showHeart":false,
+"hMargin":6,
+"enableBottomAddToCart":false,
+"layout":"list",
+"enableRating":true,
+"imageRatio":1.3,
+"isVertical":true,
+"vMargin":0,
+"hideTitle":false,
+"borderRadius":3,
+"cardDesign":"card",
+"showCartButton":false,
+"name":"Dress Products",
+"cartIconRadius":12,
+"shuffle":false,
+"key":"stcrhu5sa0"}
+},
+"visible":true,
+"fullscreen":false,
+"pos":1000,
+"defaultTab":false,
+"icon":"assets/icons/tabs/icon-heartthin.png",
+"label":"Two",
+"groupLayout":true,
+"menuLabel":"Dress",
+"key":"24pk2q3wdl"
+},
+{
+"layout":"dynamic",
+"configs":{
+"HorizonLayout":[],
+"VerticalLayout":{
+"showCartIcon":true,
+"showStockStatus":true,
+"hideStore":false,
+"showCartIconColor":false,
+"vPadding":2,
+"showQuantity":false,
+"hPadding":6,
+"hidePrice":false,
+"showHeart":false,
+"hMargin":6,
+"enableBottomAddToCart":false,
+"layout":"columns",
+"enableRating":true,
+"imageRatio":1.3,
+"isVertical":true,
+"vMargin":0,
+"hideTitle":false,
+"borderRadius":3,
+"cardDesign":"card",
+"showCartButton":false,
+"name":"",
+"cartIconRadius":12,
+"shuffle":false,
+"key":"2hxh4nu9fy"}
+},
+"fullscreen":false,
+"pos":1100,
+"defaultTab":false,
+"icon":"assets/icons/tabs/icon-heartthin.png",
+"label":"Three",
+"groupLayout":true,
+"menuLabel":"Men's",
+"key":"24pk2q3wdl"
+},
+{
+"layout":"dynamic",
+"configs":{
+"HorizonLayout":[],
+"VerticalLayout":{
+"showCartIcon":true,
+"showStockStatus":true,
+"hideStore":false,
+"showCartIconColor":false,
+"vPadding":2,
+"showQuantity":false,
+"hPadding":6,
+"hidePrice":false,
+"showHeart":false,
+"hMargin":6,
+"enableBottomAddToCart":false,
+"layout":"list",
+"enableRating":true,
+"imageRatio":1.3,
+"isVertical":true,
+"vMargin":0,
+"hideTitle":false,
+"borderRadius":3,
+"cardDesign":"card",
+"showCartButton":false,
+"name":"",
+"cartIconRadius":12,
+"shuffle":false,
+"key":"sh7guudasv"}
+},
+"fullscreen":false,
+"pos":1200,
+"defaultTab":false,
+"icon":"assets/icons/tabs/icon-heartthin.png",
+"label":"Four",
+"groupLayout":true,
+"menuLabel":"Notebook",
+"key":"24pk2q3wdl"
+},
+{
+"layout":"dynamic",
+"configs":{
+"HorizonLayout":[],
+"VerticalLayout":{
+"showCartIcon":true,
+"showStockStatus":true,
+"hideStore":false,
+"showCartIconColor":false,
+"vPadding":2,
+"showQuantity":false,
+"hPadding":6,
+"hidePrice":false,
+"showHeart":false,
+"hMargin":6,
+"enableBottomAddToCart":false,
+"layout":"pinterest",
+"enableRating":true,
+"imageRatio":1.3,
+"isVertical":true,
+"vMargin":0,
+"hideTitle":false,
+"borderRadius":3,
+"cardDesign":"card",
+"showCartButton":false,
+"name":"",
+"cartIconRadius":12,
+"shuffle":false,
+"key":"2w0i40nggp"}
+},
+"fullscreen":false,
+"pos":1300,
+"defaultTab":false,
+"icon":"assets/icons/tabs/icon-heartthin.png",
+"label":"Five",
+"groupLayout":true,
+"menuLabel":"Mobile",
+"key":"24pk2q3wdl"
+},
+{
+"layout":"dynamic",
+"configs":{
+"HorizonLayout":[
+{
+"line":false,
+"columns":3,
+"type":"image",
+"showShortDescription":true,
+"marginRight":10,
+"imageSpacing":0,
+"spacing":12,
+"pos":100,
+"itemSize":{
+"width":370,
+"height":150
+},
+"radius":5,
+"border":0.6,
+"imageBoxFit":"fitWidth",
+"labelFontSize":14,
+"separateWidth":24,
+"noBackground":false,
+"enableBorder":false,
+"marginX":0,
+"marginLeft":10,
+"marginY":0,
+"layout":"category",
+"paddingX":2,
+"imageBorderStyle":"solid",
+"size":1,
+"hideTitle":false,
+"textAlignment":"topCenter",
+"marginBottom":10,
+"horizontalItem":false,
+"wrap":true,
+"items":[
+{
+"image":"https://images.unsplash.com/photo-1604508230015-5a54faf1fa56?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+"showDescription":false,
+"originalColor":true,
+"showText":true,
+"keepDefaultTitle":false,
+"fontSize":14,
+"title":"T-Shirt",
+"category":null,
+"fontWeight":300
+},
+{
+"image":"https://images.unsplash.com/photo-1475178626620-a4d074967452?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80",
+"showDescription":false,
+"originalColor":true,
+"showText":true,
+"keepDefaultTitle":false,
+"fontSize":14,
+"title":"Jeans",
+"category":null,
+"fontWeight":200
+},
+{
+"image":"https://images.unsplash.com/photo-1594587639781-a68a2796bb90?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+"showDescription":false,
+"originalColor":true,
+"showText":true,
+"keepDefaultTitle":false,
+"fontSize":14,
+"category":null,
+"title":"Jacket",
+"fontWeight":200
+},
+{
+"image":"https://images.unsplash.com/photo-1594938298603-c8148c4dae35?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80",
+"showDescription":false,
+"originalColor":true,
+"showText":true,
+"keepDefaultTitle":false,
+"fontSize":14,
+"category":null,
+"title":"Suit",
+"fontWeight":200
+},
+{
+"image":"https://images.unsplash.com/photo-1618932260643-eee4a2f652a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=780&q=80",
+"showDescription":false,
+"originalColor":true,
+"showText":true,
+"keepDefaultTitle":false,
+"fontSize":14,
+"category":null,
+"title":"Dress",
+"fontWeight":200
+},
+{
+"image":"https://images.unsplash.com/photo-1590874103328-eac38a683ce7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=738&q=80",
+"showDescription":false,
+"originalColor":true,
+"showText":true,
+"keepDefaultTitle":false,
+"fontSize":14,
+"title":"Bag",
+"category":null,
+"fontWeight":200
+},
+{
+"image":"https://images.unsplash.com/photo-1572635196237-14b3f281503f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80",
+"showDescription":false,
+"originalColor":true,
+"showText":true,
+"keepDefaultTitle":false,
+"fontSize":14,
+"title":"Glasses",
+"category":null,
+"fontWeight":200
+},
+{
+"image":"https://images.unsplash.com/photo-1531399395381-6603d3b9899f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=719&q=80",
+"showDescription":false,
+"originalColor":true,
+"showText":true,
+"keepDefaultTitle":false,
+"fontSize":14,
+"category":null,
+"title":"Hat",
+"fontWeight":200
+},
+{
+"image":"https://images.unsplash.com/photo-1603808033192-082d6919d3e1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=715&q=80",
+"showDescription":false,
+"originalColor":true,
+"showText":true,
+"keepDefaultTitle":false,
+"fontSize":14,
+"category":null,
+"title":"Shoes",
+"fontWeight":200
+}
+],
+"marginTop":10,
+"paddingY":6
+},
+{
+"line":false,
+"columns":3,
+"type":"image",
+"showShortDescription":true,
+"marginRight":10,
+"imageSpacing":0,
+"spacing":12,
+"pos":124,
+"itemSize":{
+"width":370,
+"height":150
+},
+"radius":5,
+"border":0.6,
+"imageBoxFit":"fitWidth",
+"labelFontSize":14,
+"separateWidth":24,
+"noBackground":false,
+"enableBorder":false,
+"marginX":0,
+"marginLeft":10,
+"marginY":0,
+"layout":"category",
+"paddingX":2,
+"imageBorderStyle":"solid",
+"size":1,
+"hideTitle":false,
+"textAlignment":"topCenter",
+"marginBottom":10,
+"horizontalItem":false,
+"wrap":true,
+"items":[
+{
+"image":"https://images.unsplash.com/photo-1604508230015-5a54faf1fa56?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+"showDescription":false,
+"originalColor":true,
+"showText":true,
+"keepDefaultTitle":false,
+"fontSize":14,
+"title":"T-Shirt",
+"category":null,
+"fontWeight":300
+},
+{
+"image":"https://images.unsplash.com/photo-1475178626620-a4d074967452?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80",
+"showDescription":false,
+"originalColor":true,
+"showText":true,
+"keepDefaultTitle":false,
+"fontSize":14,
+"title":"Jeans",
+"category":null,
+"fontWeight":200
+},
+{
+"image":"https://images.unsplash.com/photo-1594587639781-a68a2796bb90?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+"showDescription":false,
+"originalColor":true,
+"showText":true,
+"keepDefaultTitle":false,
+"fontSize":14,
+"category":null,
+"title":"Jacket",
+"fontWeight":200
+},
+{
+"image":"https://images.unsplash.com/photo-1594938298603-c8148c4dae35?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80",
+"showDescription":false,
+"originalColor":true,
+"showText":true,
+"keepDefaultTitle":false,
+"fontSize":14,
+"category":null,
+"title":"Suit",
+"fontWeight":200
+},
+{
+"image":"https://images.unsplash.com/photo-1618932260643-eee4a2f652a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=780&q=80",
+"showDescription":false,
+"originalColor":true,
+"showText":true,
+"keepDefaultTitle":false,
+"fontSize":14,
+"category":null,
+"title":"Dress",
+"fontWeight":200
+},
+{
+"image":"https://images.unsplash.com/photo-1590874103328-eac38a683ce7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=738&q=80",
+"showDescription":false,
+"originalColor":true,
+"showText":true,
+"keepDefaultTitle":false,
+"fontSize":14,
+"title":"Bag",
+"category":null,
+"fontWeight":200
+},
+{
+"image":"https://images.unsplash.com/photo-1572635196237-14b3f281503f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80",
+"showDescription":false,
+"originalColor":true,
+"showText":true,
+"keepDefaultTitle":false,
+"fontSize":14,
+"title":"Glasses",
+"category":null,
+"fontWeight":200
+},
+{
+"image":"https://images.unsplash.com/photo-1531399395381-6603d3b9899f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=719&q=80",
+"showDescription":false,
+"originalColor":true,
+"showText":true,
+"keepDefaultTitle":false,
+"fontSize":14,
+"category":null,
+"title":"Hat",
+"fontWeight":200
+},
+{
+"image":"https://images.unsplash.com/photo-1603808033192-082d6919d3e1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=715&q=80",
+"showDescription":false,
+"originalColor":true,
+"showText":true,
+"keepDefaultTitle":false,
+"fontSize":14,
+"category":null,
+"title":"Shoes",
+"fontWeight":200
+}
+],
+"marginTop":10,
+"paddingY":6
+}
+]
+},
+"fullscreen":false,
+"pos":1400,
+"defaultTab":false,
+"icon":"assets/icons/tabs/icon-heartthin.png",
+"label":"Six",
+"groupLayout":true,
+"menuLabel":"Desktop",
+"key":"24pk2q3wdl"
+},
+{
+"layout":"tabMenu",
+"fontFamily":"CupertinoIcons",
+"fullscreen":false,
+"pos":1500,
+"defaultTab":false,
+"icon":"eye_solid",
+"label":"Offer",
+"key":"24pk2q3wdl"
+},
+{
+"layout":"dynamic",
+"configs":{
+"HorizonLayout":[]
+},
+"fontFamily":"CupertinoIcons",
+"visible":false,
+"fullscreen":false,
+"pos":1600,
+"defaultTab":false,
+"icon":"shield_fill",
+"label":"Hide",
+"groupLayout":false,
+"menuLabel":"Hide",
+"key":"24pk2q3wdl"
+},
+{
+"layout":"dynamic",
+"configs":{
+"HorizonLayout":[
+{
+"layout":"header_text",
+"pos":100,
+"showSearch":false,
+"fontSize":25,
+"title":"If  you can dream it, \nYou can do it",
+"isSafeArea":true
+}
+]
+},
+"visible":false,
+"fullscreen":false,
+"pos":1700,
+"defaultTab":false,
+"icon":"assets/icons/tabs/icon-heartthin.png",
+"label":"Hide",
+"key":"24pk2q3wdl"
+},
+{
+"key":"kq3e2gnzzr",
+"layout":"dynamic",
+"icon":"circle",
+"fontFamily":"CupertinoIcons",
+"label":"Offer Page",
+"pos":1722,
+"visible":false,
+"defaultTab":false,
+"fullscreen":false,
+"configs":{
+"HorizonLayout":[],
+"VerticalLayout":{
+"key":"yn2cqhjoi5",
+"layout":"card",
+"name":"💥 💥 Hot Offers  💥 💥",
+"isVertical":true,
+"hPadding":3.0,
+"vPadding":3.0,
+"hMargin":7.0,
+"vMargin":3.0,
+"showStockStatus":true,
+"enableRating":true,
+"hideTitle":false,
+"hideStore":true,
+"hidePrice":false,
+"showHeart":true,
+"showCartButton":true,
+"cartIconRadius":12.0,
+"showQuantity":false,
+"showCartIconColor":false,
+"showCartIcon":true,
+"imageRatio":1.0,
+"shuffle":false,
+"borderRadius":10.049170251997559,
+"cardDesign":"horizontal",
+"enableBottomAddToCart":false,
+"titleLine":2,
+"boxShadow":{
+"spreadRadius":10.0,
+"blurRadius":10.0,
+"colorOpacity":0.1,
+"y":10.0,
+"x":0.0}}}
+}
+],
+"Drawer":{
+"filter":0,
+"backgroundColor":"ffffffff",
+"logoConfig":{
+"marginRight":0,
+"useMaxWidth":true,
+"width":271,
+"boxFit":"fill",
+"marginBottom":10,
+"marginTop":60,
+"height":71,
+"marginLeft":5
+},
+"enable":true,
+"logo":"assets/images/logo.png",
+"subDrawerItem":{
+"button-21ct7h9hyz":{
+"buttonAlignment":"centerLeft",
+"buttons":[
+{
+"textFontSize":14,
+"marginRight":5,
+"image":"https://i.imgur.com/zFA6wKx.png",
+"width":40,
+"navigator":{
+"screen":"wishlist",
+"showSubcategory":false
+},
+"radius":0,
+"marginLeft":5,
+"height":40
+},
+{
+"textFontSize":14,
+"marginRight":5,
+"width":100,
+"navigator":{
+"screen":"wishlist",
+"showSubcategory":false
+},
+"text":"Wishlist",
+"radius":0,
+"marginLeft":5,
+"height":40
+}
+]
+},
+"screen-b2lha9y53y":{
+"useTabScreen":false,
+"icon":"news",
+"screen":"cart",
+"title":"",
+"iconFontFamily":"CupertinoIcons"}
+},
+"safeArea":false,
+"items":[
+{
+"show":true,
+"type":"category"
+},
+{
+"show":true,
+"type":"home"
+},
+{
+"show":false,
+"type":"blog"
+},
+{
+"show":true,
+"type":"login"
+},
+{
+"show":false,
+"type":"categories"
+},
+{
+"show":true,
+"type":"cart"
+},
+{
+"show":true,
+"type":"profile"
+},
+{
+"show":false,
+"type":"screen-b2lha9y53y"
+}
+],
+"textColor":"ff100f11",
+"key":"2m1nbhqqtp",
+"zoomConfig":{
+"borderRadius":7,
+"backgroundImage":null,
+"angle":0,
+"style":"scaleRight",
+"slideMargin":60,
+"mainScreenScale":0.2,
+"enableShadow":true,
+"slideWidth":0.55}
+},
+"AppBar":{
+"showOnScreens":["home",
+"dynamic",
+"tabMenu",
+"static",
+"page"],
+"enable":true,
+"snap":true,
+"pinned":true,
+"floating":true,
+"elevation":4,
+"alwaysShowAppBar":false,
+"items":[
+{
+"type":"icon",
+"action":"menu",
+"pos":100,
+"textOpacity":0.5,
+"alignment":"center",
+"fontSize":16,
+"fontFamily":"CupertinoIcons",
+"fontWeight":"400",
+"icon":"square_grid_2x2",
+"iconSize":24,
+"size":40,
+"radius":18,
+"backgroundColor":"0",
+"marginLeft":16,
+"marginRight":4,
+"marginTop":4,
+"marginBottom":4,
+"paddingLeft":4,
+"paddingRight":4,
+"paddingTop":4,
+"paddingBottom":4,
+"key":"gbs354efgo",
+"avatarRadius":100,
+"spacingText":3,
+"headerTextOpacity":0.5,
+"headerFontSize":16,
+"headerFontWeight":"400"
+},
+{
+"type":"text",
+"action":"none",
+"pos":200,
+"title":"Yellow Shop",
+"textOpacity":0.8,
+"alignment":"center",
+"fontSize":29,
+"fontFamily":"CupertinoIcons",
+"fontWeight":"800",
+"textColor":"ff009688",
+"icon":"location",
+"iconSize":24,
+"size":20,
+"radius":16,
+"backgroundColor":"#00000000",
+"marginLeft":4,
+"marginRight":4,
+"marginTop":4,
+"marginBottom":4,
+"paddingLeft":4,
+"paddingRight":4,
+"paddingTop":4,
+"paddingBottom":4,
+"key":"pvmrkls2sy",
+"avatarRadius":100,
+"spacingText":3,
+"headerTextOpacity":0.5,
+"headerFontSize":16,
+"headerFontWeight":"400"
+},
+{
+"type":"icon",
+"action":"cart",
+"pos":400,
+"textOpacity":0.5,
+"alignment":"center",
+"fontSize":16,
+"fontFamily":"CupertinoIcons",
+"fontWeight":"400",
+"icon":"shopping_cart",
+"iconSize":24,
+"size":40,
+"radius":18,
+"backgroundColor":"0",
+"marginLeft":4,
+"marginRight":16,
+"marginTop":4,
+"marginBottom":4,
+"paddingLeft":4,
+"paddingRight":4,
+"paddingTop":4,
+"paddingBottom":4,
+"key":"swrxx0zicb",
+"avatarRadius":100,
+"spacingText":3,
+"headerTextOpacity":0.5,
+"headerFontSize":16,
+"headerFontWeight":"400"
+}
+],
+"expandedItems":[]
+},
+"VerticalLayout":{
+"key":"w3unr8n944",
+"layout":"columns",
+"name":"Recent Added-- Products",
+"isVertical":true,
+"hPadding":6.0,
+"vPadding":2.0,
+"hMargin":6.0,
+"vMargin":0.0,
+"showStockStatus":true,
+"enableRating":false,
+"hideTitle":false,
+"hideStore":false,
+"hidePrice":false,
+"showHeart":true,
+"showCartButton":false,
+"cartIconRadius":20.0,
+"showQuantity":false,
+"showCartIconColor":false,
+"showCartIcon":true,
+"imageRatio":1.0,
+"shuffle":false,
+"borderRadius":9.0,
+"cardDesign":"simpleCard",
+"enableBottomAddToCart":false,
+"titleLine":1}}
