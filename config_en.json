@@ -193,27 +193,27 @@
 "defaultTab":false,
 "icon":"home",
 "label":"Home",
-"key":"k5i17vsmr8"
+"key":"9i6oko06xv"
 },
 {
-"key":"k5i17vsmr8",
 "layout":"category",
-"icon":"circle_grid_3x3",
+"parallaxImageRatio":1.2,
 "fontFamily":"CupertinoIcons",
-"label":"Category",
-"pos":200,
-"defaultTab":false,
-"fullscreen":false,
-"categoryLayout":"sideMenu",
 "remapCategories":[
 {
-"category":"24",
 "parent":"25",
-"name":"Women's"
+"name":"Women's",
+"category":"24"
 }
 ],
+"fullscreen":false,
+"pos":200,
 "parallax":false,
-"parallaxImageRatio":1.2
+"defaultTab":false,
+"icon":"circle_grid_3x3",
+"label":"Category",
+"categoryLayout":"sideMenu",
+"key":"9i6oko06xv"
 },
 {
 "layout":"dynamic",
@@ -235,7 +235,7 @@
 "defaultTab":false,
 "icon":"flame_fill",
 "label":"New",
-"key":"k5i17vsmr8"
+"key":"9i6oko06xv"
 },
 {
 "layout":"dynamic",
@@ -401,7 +401,7 @@
 "defaultTab":false,
 "icon":"equal_square",
 "label":"Z-Me",
-"key":"k5i17vsmr8"
+"key":"9i6oko06xv"
 },
 {
 "layout":"profile",
@@ -411,7 +411,7 @@
 "defaultTab":false,
 "icon":"person_solid",
 "label":"Account",
-"key":"k5i17vsmr8"
+"key":"9i6oko06xv"
 },
 {
 "layout":"dynamic",
@@ -1050,7 +1050,7 @@
 "label":"All",
 "groupLayout":true,
 "menuLabel":"All",
-"key":"k5i17vsmr8"
+"key":"9i6oko06xv"
 },
 {
 "layout":"dynamic",
@@ -1659,7 +1659,7 @@
 "label":"WOMEN",
 "groupLayout":true,
 "menuLabel":"WOMEN",
-"key":"k5i17vsmr8"
+"key":"9i6oko06xv"
 },
 {
 "layout":"videos",
@@ -1670,7 +1670,7 @@
 "defaultTab":false,
 "icon":"videocam_circle",
 "label":"MEN",
-"key":"k5i17vsmr8"
+"key":"9i6oko06xv"
 },
 {
 "layout":"dynamic",
@@ -2556,7 +2556,7 @@
 "label":"SWIMWEAR",
 "groupLayout":true,
 "menuLabel":"SWIMWEAR",
-"key":"k5i17vsmr8"
+"key":"9i6oko06xv"
 },
 {
 "layout":"dynamic",
@@ -2570,7 +2570,7 @@
 "label":"SHOES & ACCS",
 "groupLayout":true,
 "menuLabel":"SHOES & ACCS",
-"key":"k5i17vsmr8"
+"key":"9i6oko06xv"
 },
 {
 "layout":"dynamic",
@@ -3003,7 +3003,7 @@
 "label":"CURVE + PLUS",
 "groupLayout":true,
 "menuLabel":"CURVE + PLUS",
-"key":"k5i17vsmr8"
+"key":"9i6oko06xv"
 },
 {
 "layout":"dynamic",
@@ -3104,7 +3104,7 @@
 "label":"message",
 "groupLayout":false,
 "menuLabel":"message",
-"key":"k5i17vsmr8"
+"key":"9i6oko06xv"
 }
 ],
 "Drawer":{
