@@ -192,8 +192,7 @@
 "pos":100,
 "defaultTab":false,
 "icon":"home",
-"label":"Home",
-"key":"9i6oko06xv"
+"label":"Home"
 },
 {
 "layout":"category",
@@ -212,8 +211,7 @@
 "defaultTab":false,
 "icon":"circle_grid_3x3",
 "label":"Category",
-"categoryLayout":"sideMenu",
-"key":"9i6oko06xv"
+"categoryLayout":"sideMenu"
 },
 {
 "layout":"dynamic",
@@ -234,8 +232,7 @@
 "pos":300,
 "defaultTab":false,
 "icon":"flame_fill",
-"label":"New",
-"key":"9i6oko06xv"
+"label":"New"
 },
 {
 "layout":"dynamic",
@@ -400,8 +397,7 @@
 "pos":400,
 "defaultTab":false,
 "icon":"equal_square",
-"label":"Z-Me",
-"key":"9i6oko06xv"
+"label":"Z-Me"
 },
 {
 "layout":"profile",
@@ -410,8 +406,7 @@
 "pos":500,
 "defaultTab":false,
 "icon":"person_solid",
-"label":"Account",
-"key":"9i6oko06xv"
+"label":"Account"
 },
 {
 "layout":"dynamic",
@@ -1049,8 +1044,7 @@
 "icon":"assets/icons/tabs/icon-heartthin.png",
 "label":"All",
 "groupLayout":true,
-"menuLabel":"All",
-"key":"9i6oko06xv"
+"menuLabel":"All"
 },
 {
 "layout":"dynamic",
@@ -1658,8 +1652,7 @@
 "icon":"assets/icons/tabs/icon-heartthin.png",
 "label":"WOMEN",
 "groupLayout":true,
-"menuLabel":"WOMEN",
-"key":"9i6oko06xv"
+"menuLabel":"WOMEN"
 },
 {
 "layout":"videos",
@@ -1669,8 +1662,7 @@
 "pos":800,
 "defaultTab":false,
 "icon":"videocam_circle",
-"label":"MEN",
-"key":"9i6oko06xv"
+"label":"MEN"
 },
 {
 "layout":"dynamic",
@@ -2555,8 +2547,7 @@
 "icon":"assets/icons/tabs/icon-heartthin.png",
 "label":"SWIMWEAR",
 "groupLayout":true,
-"menuLabel":"SWIMWEAR",
-"key":"9i6oko06xv"
+"menuLabel":"SWIMWEAR"
 },
 {
 "layout":"dynamic",
@@ -2569,8 +2560,7 @@
 "icon":"assets/icons/tabs/icon-heartthin.png",
 "label":"SHOES & ACCS",
 "groupLayout":true,
-"menuLabel":"SHOES & ACCS",
-"key":"9i6oko06xv"
+"menuLabel":"SHOES & ACCS"
 },
 {
 "layout":"dynamic",
@@ -3002,8 +2992,7 @@
 "icon":"assets/icons/tabs/icon-heartthin.png",
 "label":"CURVE + PLUS",
 "groupLayout":true,
-"menuLabel":"CURVE + PLUS",
-"key":"9i6oko06xv"
+"menuLabel":"CURVE + PLUS"
 },
 {
 "layout":"dynamic",
@@ -3103,8 +3092,7 @@
 "icon":"mark_email_unread_sharp",
 "label":"message",
 "groupLayout":false,
-"menuLabel":"message",
-"key":"9i6oko06xv"
+"menuLabel":"message"
 }
 ],
 "Drawer":{
