@@ -52,7 +52,7 @@
 "TabBarConfig":null,
 "FontFamily":"Roboto",
 "FontHeader":"Raleway",
-"ProductDetail":"halfSizeImageType",
+"ProductDetail":"simpleType",
 "useMaterial3":false,
 "MainColor":"#3FC1BE",
 "ShowChat":true,
