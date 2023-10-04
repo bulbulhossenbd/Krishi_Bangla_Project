@@ -192,26 +192,28 @@
 "pos":100,
 "defaultTab":false,
 "icon":"home",
-"label":"Home"
+"label":"Home",
+"key":"3n0mi1zolf"
 },
 {
+"key":"3n0mi1zolf",
 "layout":"category",
-"parallaxImageRatio":1.2,
+"icon":"circle_grid_3x3",
 "fontFamily":"CupertinoIcons",
+"label":"Category",
+"pos":200,
+"defaultTab":false,
+"fullscreen":false,
+"categoryLayout":"card",
 "remapCategories":[
 {
 "parent":"25",
-"name":"Women's",
+"name":"Women Item",
 "category":"24"
 }
 ],
-"fullscreen":false,
-"pos":200,
 "parallax":false,
-"defaultTab":false,
-"icon":"circle_grid_3x3",
-"label":"Category",
-"categoryLayout":"sideMenu"
+"parallaxImageRatio":1.2
 },
 {
 "layout":"dynamic",
@@ -232,7 +234,8 @@
 "pos":300,
 "defaultTab":false,
 "icon":"flame_fill",
-"label":"New"
+"label":"New",
+"key":"3n0mi1zolf"
 },
 {
 "layout":"dynamic",
@@ -397,7 +400,8 @@
 "pos":400,
 "defaultTab":false,
 "icon":"equal_square",
-"label":"Z-Me"
+"label":"Z-Me",
+"key":"3n0mi1zolf"
 },
 {
 "layout":"profile",
@@ -406,7 +410,8 @@
 "pos":500,
 "defaultTab":false,
 "icon":"person_solid",
-"label":"Account"
+"label":"Account",
+"key":"3n0mi1zolf"
 },
 {
 "layout":"dynamic",
@@ -1044,7 +1049,8 @@
 "icon":"assets/icons/tabs/icon-heartthin.png",
 "label":"All",
 "groupLayout":true,
-"menuLabel":"All"
+"menuLabel":"All",
+"key":"3n0mi1zolf"
 },
 {
 "layout":"dynamic",
@@ -1652,7 +1658,8 @@
 "icon":"assets/icons/tabs/icon-heartthin.png",
 "label":"WOMEN",
 "groupLayout":true,
-"menuLabel":"WOMEN"
+"menuLabel":"WOMEN",
+"key":"3n0mi1zolf"
 },
 {
 "layout":"videos",
@@ -1662,7 +1669,8 @@
 "pos":800,
 "defaultTab":false,
 "icon":"videocam_circle",
-"label":"MEN"
+"label":"MEN",
+"key":"3n0mi1zolf"
 },
 {
 "layout":"dynamic",
@@ -2547,7 +2555,8 @@
 "icon":"assets/icons/tabs/icon-heartthin.png",
 "label":"SWIMWEAR",
 "groupLayout":true,
-"menuLabel":"SWIMWEAR"
+"menuLabel":"SWIMWEAR",
+"key":"3n0mi1zolf"
 },
 {
 "layout":"dynamic",
@@ -2560,7 +2569,8 @@
 "icon":"assets/icons/tabs/icon-heartthin.png",
 "label":"SHOES & ACCS",
 "groupLayout":true,
-"menuLabel":"SHOES & ACCS"
+"menuLabel":"SHOES & ACCS",
+"key":"3n0mi1zolf"
 },
 {
 "layout":"dynamic",
@@ -2992,7 +3002,8 @@
 "icon":"assets/icons/tabs/icon-heartthin.png",
 "label":"CURVE + PLUS",
 "groupLayout":true,
-"menuLabel":"CURVE + PLUS"
+"menuLabel":"CURVE + PLUS",
+"key":"3n0mi1zolf"
 },
 {
 "layout":"dynamic",
@@ -3092,7 +3103,8 @@
 "icon":"mark_email_unread_sharp",
 "label":"message",
 "groupLayout":false,
-"menuLabel":"message"
+"menuLabel":"message",
+"key":"3n0mi1zolf"
 }
 ],
 "Drawer":{
